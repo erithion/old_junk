@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mcore", "mcore.vcproj", "{A4A1B561-DD41-40F2-9A98-EA0B3BD3318D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A4A1B561-DD41-40F2-9A98-EA0B3BD3318D}.Debug.ActiveCfg = Debug|Win32
+		{A4A1B561-DD41-40F2-9A98-EA0B3BD3318D}.Debug.Build.0 = Debug|Win32
+		{A4A1B561-DD41-40F2-9A98-EA0B3BD3318D}.Release.ActiveCfg = Release|Win32
+		{A4A1B561-DD41-40F2-9A98-EA0B3BD3318D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

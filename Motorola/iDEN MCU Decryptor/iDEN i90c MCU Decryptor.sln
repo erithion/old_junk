@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cypher", "Src\Cypher\Cypher.vcproj", "{381206CC-543F-414D-9EE8-4160060029A5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decryptor", "Src\Decryptor\Decryptor.vcproj", "{1A9014AA-49BB-4097-9EA6-27D77B97DE5C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{381206CC-543F-414D-9EE8-4160060029A5} = {381206CC-543F-414D-9EE8-4160060029A5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{381206CC-543F-414D-9EE8-4160060029A5}.Debug.ActiveCfg = Debug|Win32
+		{381206CC-543F-414D-9EE8-4160060029A5}.Debug.Build.0 = Debug|Win32
+		{381206CC-543F-414D-9EE8-4160060029A5}.Release.ActiveCfg = Release|Win32
+		{381206CC-543F-414D-9EE8-4160060029A5}.Release.Build.0 = Release|Win32
+		{1A9014AA-49BB-4097-9EA6-27D77B97DE5C}.Debug.ActiveCfg = Debug|Win32
+		{1A9014AA-49BB-4097-9EA6-27D77B97DE5C}.Debug.Build.0 = Debug|Win32
+		{1A9014AA-49BB-4097-9EA6-27D77B97DE5C}.Release.ActiveCfg = Release|Win32
+		{1A9014AA-49BB-4097-9EA6-27D77B97DE5C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

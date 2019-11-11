@@ -1,0 +1,126 @@
+/* ----------------------------------------------------------------------
+ * File: conf/sbc.dld
+ *
+ * This is a sample linker command file for an SBC board.
+ *
+ * For a description of the different statements in this file, please
+ * refer to the D-LD User's Manual.
+ * ---------------------------------------------------------------------- */
+
+
+/* The following command defines the different memory areas available:
+ *   The SBC306 has 512KB DRAM at address 0.
+ *   The first 0x3000 is used for monitor.
+ *   User code starts at 0x3000.
+ * ---------------------------------------------------------------------- */
+MEMORY
+{
+        ram:    org = 0x003000, len = 0x7cffc
+}
+
+
+/* This block specifies where and how the linker should locate different
+ * modules of the system.
+ *
+ * This example will allocate according to the following map:
+ *
+ * 0x000000:    +-------------------------------+
+ * "ram"        | Monitor code                  |
+ *              |                               |
+ *              +-------------------------------+ <- __DATA_ROM, __DATA_RAM
+ *              | User code                     |
+ *              |                               |
+ *              | Memory          for the stack |
+ *              |                               |
+ * 0x80000:     +-------------------------------+ <- __SP_INIT
+ *
+ * In the margin are the locations of the different identifiers that are 
+ * used by some library routines to handle memory initialization and
+ * allocation. They are defined further below.
+ *
+ * NOTES:
+ * (1)  Constants and strings will also be in the .text
+ *      segment unless the -Xstrings-in-text=0 option is used.
+ *
+* (2)  If C++ code is to be linked then code calling the static
+ *      contructors and destructors will be placed in the .init and
+ *	the .fini sections allocated after the program code.
+ *
+ * (3)  If __SP_END and __HEAP_END points to the same address
+ *      (i.e. the "ram" and "stack" memory areas are contigous)
+ *      then programs compiled with -Xstack-probe will
+ *      allocate more stack from the top of the heap when stack overflow
+ *      occurs, if possible (this is done by the __sp_grow() function,
+ *	you can find the source to it in sbrk.c).
+ * ---------------------------------------------------------------------- */
+SECTIONS
+{
+        /* The first group contains code and constant data */
+
+	GROUP : {
+                /* First take all code from all objects and libraries */
+
+		.text (TEXT)   : {
+			*(.text) *(.rodata) *(.rdata) *(.init) *(.fini) 
+		}
+		/* Next take all small CONST data */
+		.sdata2 (TEXT) : {}
+	} > ram
+
+        /* The second group will allocate space for the initialized data
+         * (.data/.sdata) and the unititialized data (.bss/.sbss) in the "ram" section.
+         */
+	GROUP : {
+		.data (DATA)	: {}
+
+		/* constructor and destructor function ptrs */
+		.ctors ALIGN(4) : { ctordtor.o(.ctors) *(.ctors) }
+		.dtors ALIGN(4) : { ctordtor.o(.dtors) *(.dtors) }
+
+		/* .sdata contains small address data */
+		.sdata (DATA)	: {}
+
+                /* This will allocate the the .bss symbols */
+		.sbss (BSS)	: {}
+		.bss  (BSS)	: {}
+
+                /* Any space left over will be used as a heap */
+	} >ram
+}
+
+/* Definitions of identifiers used by sbrk.c, init.c and the different
+ * crt0.s files. Their purpose is to control initialization and memory
+ * memory allocation.
+ *
+ * __HEAP_START	: Used by sbrk.c. Start of memory used by malloc() etc.
+ * __HEAP_END	: Used by sbrk.c. End of heap memory
+ * __SP_INIT	: Used by crt0.s. Initial address of stack pointer
+ * __SP_END	: Used by sbrk.c. Only used when stack probing
+ * __DATA_ROM	: Used by init.c. Address of initialized data in ROM
+ * __DATA_RAM	: Used by init.c. Address of initialized data in RAM
+ * __DATA_END	: Used by init.c. End of allocated initialized data
+ * __BSS_START	: Used by init.c. Start of uninitialized data
+ * __BSS_END	: Used by init.c. End of data to be cleared
+ * ---------------------------------------------------------------------- */
+
+__HEAP_START	= ADDR(.bss)+SIZEOF(.bss);
+__SP_INIT	= ADDR(ram)+SIZEOF(ram);
+__HEAP_END	= __SP_INIT-0x800;
+__SP_END	= __HEAP_END;
+__DATA_RAM	= ADDR(.data);
+__DATA_ROM	= __DATA_RAM;
+__DATA_END	= ADDR(.sdata)+SIZEOF(.sdata);
+__BSS_START	= ADDR(.sbss);
+__BSS_END	= ADDR(.bss)+SIZEOF(.bss);
+
+/* Some targets use an extra underscore in front of identifiers
+ * ---------------------------------------------------------------------- */
+___HEAP_START	= __HEAP_START;
+___HEAP_END	= __HEAP_END;
+___SP_INIT	= __SP_INIT;
+___SP_END	= __SP_END;
+___DATA_ROM	= __DATA_ROM;
+___DATA_RAM	= __DATA_RAM;
+___DATA_END	= __DATA_END;
+___BSS_START	= __BSS_START;
+___BSS_END	= __BSS_END;

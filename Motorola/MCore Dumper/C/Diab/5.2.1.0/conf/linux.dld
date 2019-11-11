@@ -1,0 +1,53 @@
+SECTIONS {
+
+	GROUP BIND(0x10000 + HEADERSZ)  : {
+		.text (TEXT) 	: {
+			*(.text)
+			*(.rodata)
+			*(.frame_info)
+			*(.j_class_table)
+			*(.init)
+			*(.fini)
+		}
+		.sdata2 (TEXT) 	: {
+			*(.sdata2)
+			. = (. + 7) & ~7;
+		}
+		__TEXT_END	= .;
+	}
+
+	GROUP BIND(((__TEXT_END + 0x10000) & -0x10000) + (__TEXT_END % 0x2000)) : {
+
+		__DATA_ROM	= .;
+		__DATA_RAM	= .;
+		.data (DATA) 	: {}
+		.j_pdata (DATA) : {}
+		.ctors ALIGN(4) : { ctordtor.o(.ctors) *(.ctors) }
+		.dtors ALIGN(4) : { ctordtor.o(.dtors) *(.dtors) }
+		.sdata (DATA)	: { *(.sdata) *(.j_spdata) }
+		__DATA_END	= .;
+
+		__BSS_START	= .;
+		.sbss (BSS) 	: {}
+		.bss (BSS) 	: {}
+		__BSS_END	= .;
+		__HEAP_START	= .;
+	}
+}
+
+__HEAP_END      = __HEAP_START+0x2000000;
+__SP_INIT       = __HEAP_END+0x8000;
+__SP_END        = __SP_INIT-0x8000;          /* Stack is 2KB.                */
+
+/* Some targets use an extra underscore in front of identifiers
+ * ------------------------------------------------------------------------ */
+___HEAP_START   = __HEAP_START;
+___HEAP_END     = __HEAP_END;
+___SP_INIT      = __SP_INIT;
+___SP_END       = __SP_END;
+___DATA_ROM     = __DATA_ROM;
+___DATA_RAM     = __DATA_RAM;
+___DATA_END     = __DATA_END;
+___BSS_START    = __BSS_START;
+___BSS_END      = __BSS_END;
+

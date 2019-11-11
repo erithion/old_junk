@@ -1,0 +1,238 @@
+03.11.2006 
+     - Reimplemented functions detection
+       Previous version contained own too complex template algorithms for functions detection.
+       Current version uses native methods of functions detection, which IDA proposes.
+       It was found that these methods increased productivity a lot.
+
+     - Improved stack tracing and stack frame detection
+       The algorithm of stack frame creation relies on a fact that at least a link register must be saved into stack. 
+       Thus there must be something like
+       ...
+       subi sp, value       ; // First stack has to be allocated for registers
+       ...                                                                  
+       stm r...-r15, (sp)   ; // There must be a reservation of the link register.
+                            ; // For an instance, stm stores only into stack and             
+                            ; // doesn't contain any sp modification effects
+
+     - Improved stack points and stack variables creation
+       Thanks to stack tracing now the complex ways of stack allocations are detected as well.
+       And any stack point changes in such cases are detected too.
+       A few such stack allocations:
+        -   subi    sp, 0x20
+            movi    r1, 0x39
+            stm     r8 - r15, (sp)
+            lsli    r1, 3
+            subu    sp, r1    (! Allocation via left shifted register value)
+
+        -   subi    sp, 0x20
+            stm     r8 - r15, (sp)
+            bgeni   r1, 8
+            subu    sp, r1 (! Allocation via bgeni register value)
+
+        -   bmaski  r1, 0xA
+            subi    sp, 0x20
+            subi    r1, 0xF
+            stm     r9 - r15, (sp)
+            subu    sp, r1 (! Allocation via complex calculated register value)
+        
+        -   subi    sp, 0x20
+            lrw     r1, 0x668
+            stm     r8 - r15, (sp)
+            subu    sp, r1 (! Allocation via loaded register value)
+
+       Stack variables are detected and created on any appeal to SP register.
+
+     - Added switch instructions detection
+       Algorithm looks for the following group of instructions, which are treated as switch
+       	    lrw rx, [JumpTable]
+       	    ixw rx, ry
+       	    ld  rx, (rx)
+       	    jmp rx
+       It works only with functions. It is done for an easy, precise detection of the cases of the switch.
+       I.e. if the element of a jump table points on the some address within a current function with switch, in that case
+       this element definitely belongs to the function's switch jump table.
+
+     - Added convinient macro commands
+       All macro instructions are displayed with caps      
+
+         - bmaski r, v => MOVI r, mv
+
+           where mv = (1 << v) - 1
+
+         - bmaski r, v1 \
+           bseti r, v2  /  MOVI r, mv
+
+           where mv = ((1 << v1) - 1) | (1 << v2)
+
+         - bmaski r, v1 \
+           bclri r, v2  /  MOVI r, mv
+
+           where mv = ((1 << v1) - 1) & (~(1 << v2))
+
+         - bmaski r, v1 \
+           addi r, v2   /  MOVI r, mv
+
+           where mv = ((1 << v1) - 1) + v2
+
+         - bmaski r, v1 \
+           subi r, v2   /  MOVI r, mv
+
+           where mv = ((1 << v1) - 1) - v2
+
+         - bmaski r, v1          \
+           {lsli | rotli} r, v2  /  MOVI r, mv
+
+           where mv = ((1 << v1) - 1) << v2
+
+         - bmaski r, v1         \
+           {lsri | asri} r, v2  /   MOVI r, mv
+
+           where mv = ((1 << v1) - 1) >> v2
+
+         - bgeni r, v => MOVI r, 1 << v                                
+
+         - bgeni r, v1 \
+           bseti r, v2 / MOVI r, mv
+
+           where mv = (1 << v1) | (1 << v2)
+
+         - bgeni r, v1 \                                  
+           bclri r, v2 / MOVI r, mv
+
+           where mv = (1 << v1) & (~(1 << v2))   
+
+         - bgeni r, v1 \
+           addi r, v2  / MOVI r, mv
+
+           where mv = (1 << v1) + v2             
+
+         - bgeni r, v1 \
+           subi r, v2  / MOVI r, mv
+
+           where mv = (1 << v1) - v2             
+
+         - bgeni r, v1           \
+           {lsli | rotli} r, v2  / MOVI r, mv
+
+           where mv = (1 << v1) << v2            
+
+         - bgeni r, v1           \
+           {lsri | asri} r, v2   / MOVI r, mv
+
+           where mv = (1 << v1) >> v2            
+
+         - movi r, v1  \                                  
+           bseti r, v2 / MOVI r, mv
+
+           where mv = v1 | (1 << v2)             
+
+         - movi r, v1  \                                  
+           bclri r, v2 / MOVI r, mv
+
+           where mv = v1 & (~(1 << v2))          
+
+         - movi r, v1  \                                  
+           addi r, v2  / MOVI r, mv
+
+           where mv = v1 + v2                    
+
+         - movi r, v1  \                                  
+           subi r, v2  / MOVI r, mv
+
+           where mv = v1 - v2                    
+
+         - movi r, v1           \                         
+           {lsli | rotli} r, v2 / MOVI r, mv
+
+           where mv = v1 << v2                   
+
+         - movi r, v1           \                         
+           {lsri | asri} r, v2  / MOVI r, mv
+
+           where mv = v1 >> v2                   
+
+         - bseti r, v => ORI r, mv
+
+           where mv = 1 << v                        
+
+         - bseti r, v1 \                                  
+           bseti r, v2 / ORI r, mv
+
+           where mv = (1 << v1) | (1 << v2)       
+
+         - bclri r, v => ANDI r, mv
+
+           where mv = ~(1 << v)                    
+
+         - bclri r, v1 \                                  
+           bclri r, v2 / ANDI r, mv
+
+           where mv = ~((1 << v1) | (1 << v2))   
+
+        Check this list also in a processor specific option's help.
+
+     - Added IDP options
+         - Added using macro command option
+09.11.2006
+     - Fixed bug with combining two instructions into a single MACRO command
+       when there is an external reference between them. For an instance
+       the following instruction will not be converted into a macro command
+                movi rx, ...
+        locxxx:
+                addi rx, ...
+     - Fixed code flow bug.
+       MACRO commands and switch support led to accidental violations of the ordinal code flow.
+       It often could be seen when a part of a local literal pool with data within a procedure was converted into the code.
+     - Improved memory-referenced operand output:
+        1. Function calls are always printed as direct memory reference
+           jsri subXXX
+        2. Referenced memory operands output depend on its type in the literal pool, i.e.
+             - if the literal pool contained 
+                   offXXX       0xXXXX
+               then load instruction would look like
+                   lrw rN, 0xXXXX
+             - if the literal pool contained
+                   offXXX       offYYYY
+               then load instruction would look like
+                   lrw rN, offYYYY
+
+09.11.2006
+     - Fixed ANDI macro command.
+       Macro command for bclri instruction was found inadequate.
+
+         - bclri r, v => ANDI r, ~mv
+
+           where mv = 1 << v                    
+
+         - bclri r, v1 \                                  
+           bclri r, v2 / ANDI r, ~mv
+
+           where mv = (1 << v1) | (1 << v2)
+
+
+21.11.2006
+     - Minor fix for relative adressing mode of load/store instructions.
+       The previous representation 
+              {ld|st}.{b|h|w} rn, (rm)
+       was replaced with a new one
+              {ld|st}.{b|h|w} rn, (rm, 0)
+
+       It was done in order to allow applying of the structure types
+
+     - Improved function detection.
+       Functions, which are referenced via JMPI instruction, are detected too.
+       It happens if the referenced via JMPI code contains such called stack prolog:
+          subi      sp, XXX
+          stm/st.w  {reg list}/reg, (sp)
+
+     - Improved switch recognition.
+       It is a fix of a previously known issue. When the switch was not detected 
+       if its default case was referenced via JMPI
+
+     - Type info support is implemented.
+       There was implemented a function parameter tracing if have declared a function signature
+
+
+Known issues:
+       Typeinfo was implemented only for the register parameters. M-Core specification declares them to be
+       r2 - r7. Parameter tracing doesn't include stack parameters.

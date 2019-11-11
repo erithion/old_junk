@@ -1,0 +1,4283 @@
+0 900 4282
+0 0 0 ignore
+0 0 0 info
+0 0 0 warning
+0 0 0 future error
+0 0 0 error
+0 0 0 internal compiler error
+0 0 0 fatal error
+0 0 0 error
+0 0 0 line
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+5 5 0 - %0s
+4 4 0 %0T '%1O' %2T: illegal argument types
+4 4 0 %0T '%1O' %2T: ambiguous conversion of arguments
+4 2 0 function takes no arguments
+4 2 0 wrong number of arguments in call to `%0E'
+6 6 0 NYI: int promotion & user def conversions
+5 5 0 %0s in %1s
+4 4 0 ambiguous conversion -- can't cast operand
+5 5 0 bad op in ok_func: op = %0d
+4 4 0 %0T '%1O' %2T, ambiguous conversion -- can't cast operand
+4 4 0 '%0O' %1T, argument must be of integral type
+4 4 0 '%0O' %1T, argument must be of arithmetic type
+4 4 0 '%0O' %1T, argument must be of pointer or arithmetic type
+4 4 0 %0T '%1O' %2T, left  argument must be of integral type
+4 4 0 %0T '%1O' %2T, left  argument must be of pointer type
+4 4 0 %0T '%1O' %2T, left argument must be of arithmetic type
+4 4 0 %0T '%1O' %2T, left argument must be of pointer or arithmetic type
+4 4 0 %0T '%1O' %2T, right  argument must be of integral type
+4 4 0 %0T '%1O' %2T, right  argument must be of pointer type
+4 4 0 %0T '%1O' %2T, right argument must be of arithmetic type
+4 4 0 %0T '%1O' %2T, right argument must be of pointer or arithmetic type
+2 0 1 cast to %0T is not an lvalue
+4 4 0 '%0O' %1T, argument must be a lvalue
+2 0 1 %0T '%1O' %2T, left argument is not an lvalue
+4 4 0 %0T '%1O' %2T, left argument must be an lvalue
+2 0 1 division by zero
+4 4 0 bad struct/enum reference
+4 4 0 detected loop in return types of operator->()
+4 4 0 %0T[%1T], requires a pointer and an int
+4 4 0 can't take address of register variable %0I
+4 4 0 can't take address of function main
+4 4 0 can't take address of a cast expression
+2 0 1 (anachronism): address of bound member function
+4 4 0 can't take address of expression
+4 4 0 can't take address of bit-field expression
+4 4 0 bad type in dynamic cast must be pointer or reference to complete class or pointer to void
+4 4 0 type of expression in dynamic cast must be pointer to complete class
+4 4 0 type of expression in dynamic cast must be reference to complete class
+4 4 0 const_cast<%0T> from %1T not allowed
+4 4 0 const_cast<%0T>, argument must be an lvalue
+4 4 0 unexpected return expression
+2 0 1 returning with address of local variable %0I
+4 2 1 '?' %0T ':' %1T, bad argument type(s)
+4 4 0 trying to decrement object of type bool
+4 4 0 assignment to constant expression
+4 4 0 assignment to non-lvalue of type '%0T'
+4 4 0 assignment to '%0T' from '%1T'
+4 2 0 trying to assign 'ptr to const' to 'ptr'
+4 4 0 ambiguous right argument to operator '%0O'
+4 4 0 bad right argument to operator '%0O'
+4 4 0 bad left argument to operator '%0O'. not a pointer
+4 4 0 not a class/struct/union expression before '%0O'
+4 4 0 not a class/struct/union expression before '%0s'
+4 4 0 not a struct/union/class expression left of %0O
+4 4 0 illegal argument: %0T
+4 4 0 illegal function call
+4 4 0 illegal function definition
+4 4 0 main() may not be called from within a program
+4 4 0 illegal return type: %0T
+5 5 0 in bld_ce: '%0O' NYI
+2 0 1 assignment operator '=' found where '==' expected
+4 4 0 illegal cast: from '%0T' to '%1T'
+4 4 0 ambiguous cast from %0T to %1T
+4 4 0 ambiguous conversion from %0T to %1T
+4 4 0 can't cast const member pointer to non-const member pointer
+4 4 0 can't cast volatile member pointer to non-volatile member pointer
+4 4 0 can't cast const volatile member pointer to non-const non-volatile member pointer
+4 4 0 insufficient access rights for cast of argument from %0T to %1T
+4 4 0 can't cast const member to non-const member
+4 4 0 can't cast volatile member to non-volatile member
+4 4 0 can't cast const volatile member to non-const non-volatile member
+4 4 0 can't cast pointer to const to pointer to non-const
+4 4 0 can't cast pointer to volatile to pointer to non-volatile
+4 4 0 can't cast pointer to const volatile to pointer to non-const non-volatile
+4 4 0 illegal cast: from '%0T' to '%1T', destination too small
+4 4 0 friend declaration outside class/struct/union declaration
+4 4 0 static only allowed inside { } in a linkage specification
+2 0 1 typedefs can't have external linkage
+2 0 1 typedef previously declared %0s
+4 4 0 identifier %0I previously declared %1s
+4 2 0 inconsistent storage class specification for %0I
+4 4 0 illegal storage class for %0I
+4 4 0 illegal storage class
+4 4 0 only functions can be inline
+4 4 0 only non-static member functions can be virtual
+4 2 0 redeclaration of parameter %0I
+4 0 0 redeclaration of %0I
+4 2 0 redeclaration of function
+4 4 0 illegal declaration
+4 4 0 illegal initializer
+4 4 0 static/external initializers must be constant expressions
+4 4 0 string too long
+4 4 0 too many initializers
+4 4 0 type %0T is abstract (use -Xlint to find why)
+4 4 0 illegal type for identifier %0I
+4 4 0 illegal type for member %0I
+4 4 0 typedef may not have the same name as its class
+4 4 0 function-declaration in wrong context
+4 4 0 only non-static member functions can be %0s
+4 4 0 all dimensions must be specified for non-static arrays
+4 4 0 member is incomplete
+4 4 0 anonymous union member may not have the same name as its class
+4 4 0 anonymous unions can't have members functions
+4 4 0 anonymous unions can't have protected or private members
+4 4 0 name of anonymous union member %0I already defined
+4 4 0 anonymous unions in file scope must be static
+4 4 0 friends can't be virtual
+4 4 0 conversion functions must be members of a class
+4 4 0 member function declared as friend in its own class
+4 4 0 %0T is not a base class of %1iT
+4 4 0 identifier %0I is not a member of class %1T
+4 2 0 identifier %0s is not member of struct/union
+2 0 1 member declaration without identifier
+4 4 0 identifier %0I used both as member and in access declaration
+4 4 0 array is incompletely specified
+4 4 0 type %0iT is incomplete
+4 4 0 identifier %0I can't be void
+4 4 0 identifier %0I not an argument
+4 4 0 redeclaration of type %0I
+4 4 0 redeclaration of %0T
+4 4 0 constant expression expected
+4 4 0 integer constant expression expected
+2 0 1 switch expression should be integral not a pointer or long long - cast inserted
+4 4 0 illegal type of switch-expr.
+4 4 0 duplicate default labels
+4 4 0 int constant expected
+4 4 0 case expression should be integral constant
+4 4 0 duplicate case constants
+4 4 0 function must return a value
+4 4 0 constructors and destructor may return no value
+4 2 0 parameter decl. not compatible with prototype
+4 4 0 multiple initializations
+4 4 0 identifier %0I is of incompletely specified type
+4 4 0 extern objects can only be initialized in file scope
+4 4 0 can't initialize arguments
+4 4 0 can't initialize typedefs
+2 0 1 initialization of automatic aggregates is an ANSI extension
+4 4 0 member initializer must be constant
+4 4 0 class %0I has no constructor
+4 4 0 too many arguments in initializer
+4 4 0 too many parameters for %0I
+4 4 0 too few parameters for %0I
+4 4 0 second argument to postfix operator '%0s' must be of type int
+4 4 0 operator->() must return class or reference to class
+4 4 0 %0I can only be overloaded for classes
+4 4 0 operator %0s must be a non-static member function
+4 4 0 non-member operator function must take at least one argument of class or enum type or reference to class or enum type
+4 4 0 constructors can't be declared %0s
+4 4 0 constructors can't have a return type
+4 4 0 constructor is illformed, must have other parameters
+4 4 0 member name may not include a '~' character
+4 4 0 can't have a destructor in a nameless class/struct/union
+4 4 0 destructors must have same name as the class/struct/union
+4 4 0 destructors may have no return type
+4 4 0 destructors can't be declared %0s
+4 4 0 destructors may take no arguments
+4 4 0 conversion functions may take no arguments
+4 4 0 conversion to original class or reference to it
+4 4 0 bad conversion function declaration
+4 4 0 no type found for %0I, can be omitted for member functions only
+4 4 0 class already has operator delete%0s with %1d argument(s)
+4 4 0 member operator functions can't be static
+4 4 0 member of abstract class
+4 4 0 unions can't have virtual member functions
+4 4 0 member function of local class must be defined in class definition
+4 4 0 redeclaration of member function
+4 4 0 member %0I already declared
+4 4 0 static data member may not have the same name as its class
+4 4 0 a local class can't have static data members
+4 4 0 unions can't have static data members
+4 4 0 illegal union member
+4 4 0 illegal storage class for class member
+2 0 1 parameter has no identifier
+4 4 0 compiler out of sync. Probably missing ';' or '}'
+4 4 0 ellipsis not allowed as argument to overloaded operator
+4 4 0 ellipsis not allowed in pascal functions
+4 4 0 argument %0d to %1s must be type size_t
+4 4 0 %0s must return void *
+4 4 0 %0s can't be virtual
+4 4 0 %0s takes one or two arguments
+4 4 0 %0s must have a first argument of type void *
+4 4 0 %0s must return void
+4 4 0 %0T has no constructor
+2 0 1 temporary inserted for non-const reference
+2 0 1 temporary inserted for reference return
+4 4 0 %0T has no copy constructor
+4 4 0 const member %0qI must have initializer
+4 4 0 reference member %0qI must have initializer
+2 0 1 jump past initializer
+4 4 0 identifier %0s not member of %1T
+4 4 0 this cannot be used outside a class member function body
+4 4 0 this cannot be used in default argument
+4 4 0 mismatching parenthesis, bracket or ? : around expression
+4 4 0 missing operand for operator %0O
+5 5 0 - %0s: %1d
+4 4 0 missing operand somewhere before :
+4 4 0 missing expression inside parenthesis
+4 4 0 missing operand for operator %0O inside parenthesis
+4 4 0 too many operands inside parenthesis
+4 4 0 missing expression inside brackets
+4 4 0 missing operand for operator %0O inside brackets
+4 4 0 too many operands inside brackets
+4 4 0 missing operator before %0s
+4 4 0 type %0s on left hand side of %1O is incomplete
+4 4 0 expression expected after %0s
+4 4 0 operator ? without matching :
+4 4 0 syntax error
+4 4 0 syntax error near %0s
+4 4 0 expression expected
+4 4 0 illegal expression
+5 5 0 untranslated type %0T in %1s
+5 5 0 illegal cast, %0T to %1T in %2s
+5 5 0 illegal cast, virtual base to derived in %0s.
+5 5 0 illegal member cast in cit_get_memb.
+5 5 0 illegal ptr-to-member cast in %0s.
+5 5 0 member function at cast in %0s
+5 5 0 not implemented %0s in %1s
+2 0 1 cast after cast to reference removed
+4 4 0 cast to reference of non lvalue
+5 5 0 internal error: %0s seen when RTTI disabled
+2 0 1 init of ref-member with non-static variable
+4 4 0 don't know size of object
+2 0 1 cannot fit enum into any integer type
+4 4 0 %0T must have destructor
+4 4 0 %0T must have default constructor
+4 4 0 %0T must have copy constructor
+4 4 0 %0T must have operator=(%1T)
+6 4 0 EOF in comment
+4 4 0 too many characters in character constant
+6 6 0 EOF in character constant
+4 4 0 newline in character constant
+4 4 0 empty character constant
+4 4 0 too many characters in wide character constant
+6 6 0 EOF in wide character constant
+4 4 0 newline in wide character constant
+4 4 0 empty wide character constant
+6 6 0 EOF in string constant
+4 4 0 newline in string constant
+4 4 0 illegal hex constant
+4 4 0 too long constant
+2 0 0 floating point value (%0s) out of range
+2 0 0 floating point overflow
+2 0 1 bad octal constant
+2 0 1 constant out of range
+2 0 1 constant out of range (%0O)
+4 4 0 illegal character: %0o
+5 5 0 no value associated with token %0s
+4 4 0 syntax error after %0s, expecting %1s
+4 4 0 label %0I already exists
+4 4 0 label %0s already exists
+4 4 0 label %0s not defined
+2 0 0 label %0s not used
+4 4 0 typedef specifier may not be used in a function definition
+4 4 0 virtual specifier may only be used inside a class declaration
+4 4 0 redefinition of function
+4 4 0 unions may not have base classes
+4 4 0 unions can't be base classes
+4 4 0 inconsistent exception specifications
+4 4 0 exception handling disabled
+4 4 0 rtti disabled
+4 4 0 non-unique struct/union reference
+4 2 0 insufficient access rights to %0ktpqI
+1 0 0 in %0s base class of %1T
+4 4 0 identifier %0s already declared
+4 4 0 main can't be overloaded
+4 4 0 can't distinguish %0pJ from %1pI
+4 4 0 function %0pI already has "C" linkage
+4 4 0 identifier %0I already declared
+4 4 0 only virtual functions can be pure
+4 4 0 %0pqtI is not a struct/class/union member
+4 4 0 non-static member %0qI cannot be used as default argument
+4 4 0 non-static member cannot be used as default argument
+4 4 0 member %0qI used outside non-static member function
+4 4 0 member used outside non-static member function
+4 4 0 ambiguous reference to %0I, could be
+1 0 0  %0qpI
+4 4 0 can't use %0I in default argument expression
+4 4 0 can't use pointer to member on members of anonymous unions
+4 4 0 can't restrict access to %0qI
+4 4 0 can't enable access to %0kqI
+4 4 0 can't use %0kqpI in default argument expression
+4 4 0 no function matches call to %0I
+4 4 0 can't resolve function call, possible candidates:
+4 4 0 ambiguous operator call, possible candidates:
+4 4 0 no function matches %0pJ
+4 4 0 ambiguous reference to %0pJ, possible candidates:
+4 4 0 can't resolve expression to type %0T
+2 0 1 illegal type conversion: %0T to %1T
+4 4 0 return type not compatible with %0pqI
+1 0 0 '%0T' has stricter const/volatile attributes than '%1T'
+1 0 0 %0S ambiguous in %1S
+1 0 0 %0S inaccessible in %1S
+4 4 0 too many arguments for function style cast to %0T
+4 4 0 non-type in new expression
+4 4 0 type %0T in new expression is abstract (use -Xlint to find why)
+4 4 0 first dimension must be an integral expression
+4 4 0 can't create void objects
+4 4 0 type in new expression is incompletely specified
+4 4 0 can't construct object of abstract type
+4 4 0 can't construct objects of array type
+4 4 0 no conversion to pointer found for %0T
+4 4 0 ambiguous conversion to pointer for %0T
+4 4 0 delete argument must be of type pointer or class
+4 4 0 positive integer constant expected in __packed__ directive
+2 0 1 already volatile
+5 5 0 - BITFIELD nyi in ctmpl_copytype()
+5 5 0 - Resolved to nonexisting id
+5 5 0 - %0s not found in %1s
+5 5 0 - assertion '%0s' failed at %1s:%2d\n
+5 5 0 - %0s: %1s
+5 5 0 - can't back
+5 5 0 - cet_flags: type = %0d
+5 5 0 - check_construction: unknown type
+5 5 0 - expression parsing (2)
+5 5 0 - fell through if in memb_type_decl
+5 5 0 - getscope: bad type
+5 5 0 - in expression
+5 5 0 - inline declared friend
+5 5 0 - postfix operator
+5 5 0 - report error
+5 5 0 - topmost_op found bottom of stack
+5 5 0 - type not converted in ctmpl_copytype()
+5 5 0 - unexpected argument to ctmpl_isdependant()
+5 5 0 - unexpected end of list
+5 5 0 - unexpected member flag in ctmpl_copymembers()
+5 5 0 - unexpected node type in buildio()
+5 5 0 - unexpected type in ctmpl_isdependant()
+5 5 0 destructor needed before switch
+5 5 0 illegal structure cast in cit_cast.
+5 5 0 in %0s: bad flag
+5 5 0 lvalue not found in cit_convce
+5 5 0 no member for id in cidtomemb
+5 5 0 unexpected scope in cidtomemb
+5 5 0 unexpected type in cidtomemb
+5 5 0 unsupported op code to bld_ce
+5 5 0 - expecting ? in reduce
+5 5 0 in inssymbol() - scope already set for %0I
+6 6 0 EOF in inline function body
+6 6 0 arguments do not match template %0I
+4 4 0 arguments do not match template %0iT
+6 6 0 can't recover from earlier errors
+6 6 0 compiler out of sync: mismatching parens in inline function
+6 6 0 reached recursive instantiations limit (%0d)
+6 6 0 syntax error - expected identifier after ::
+6 6 0 syntax error - unexpected end of file
+6 6 0 unexpected operator - ctmpl_copystm()
+4 4 0 %0I already declared as %1T
+4 4 0 %0I already declared as template %1T
+4 4 0 %0I not declared in %1S
+4 4 0 %0T '%1O' %2T, bad argument type(s)
+4 4 0 %0T '%1O' %2T, illegal operand types
+4 4 0 %0T '%1O' %2T, left argument must be of %3s type
+4 4 0 %0T '%1O' %2T, right argument must be of %3s type
+4 4 0 %0T '+' %1T, bad argument type(s)
+4 4 0 '0' expected in pure specifier
+4 4 0 all dimensions but the first must be positive constant integral expressions
+4 4 0 ambiguous class member access to %0I
+4 4 0 ambiguous cast of argument from %0T to %1T
+4 4 0 array size expected in new expression
+4 4 0 bad type in new-declarator
+4 4 0 base class expected
+4 4 0 can't initialize %0I with a list
+4 4 0 can't nest function definitions
+4 4 0 can't use %0kqpI in default argument expression
+4 4 0 cannot instantiate function %0pqI - no definition
+4 4 0 cannot instantiate member %0pqI - no definition
+4 4 0 cannot parse operator in dependent scope
+4 4 0 class %0T used twice as direct base class
+4 4 0 class name expected after ~
+4 4 0 class type expected
+4 4 0 class/struct/union can't be declared %0s
+4 4 0 conflicting declaration specifiers: %0s %1s
+4 4 0 conflicting type declarations
+4 4 0 enumerator may not have same name as its class
+4 4 0 expected ';' after explicit instantiation
+4 4 0 expected function type in explicit instantiation
+4 4 0 function %0pJ is not a member of class %1T
+4 4 0 function %0pJ not found
+4 4 0 function %0s is not found
+4 4 0 identifier %0I declared as struct or class. Use struct or class specifier
+4 4 0 identifier %0I declared as union. Use union specifier
+4 4 0 identifier %0I is not a base class of %1T
+4 4 0 identifier %0I is not a template name
+4 4 0 identifier %0I is not a type
+4 4 0 identifier %0I not a direct member of %1T
+4 4 0 identifier %0I not a static member of class %1iT
+4 4 0 identifier %0I not declared in %1S
+4 4 0 identifier %0I not declared in filescope
+4 4 0 identifier %0I not declared
+4 4 0 identifier %0I not found
+4 4 0 type %0I not found
+4 4 0 identifier %0T is not a class
+4 4 0 identifier %0iT is not a class
+4 4 0 identifier or type expected %0I
+4 4 0 illegal %0s
+4 4 0 illegal function specifier for argument
+4 4 0 illegal function specifier for template parameter
+4 4 0 illegal storage class for %0iT
+4 4 0 illegal storage class for template parameter
+4 4 0 illegal type %0iT in explicit instantiation
+4 4 0 initializer expected in condition
+4 4 0 insufficient accessrights to %0ktpqI
+4 4 0 internal error: dynamic_cast seen when RTTI disabled
+4 4 0 main can't be declared %0s
+4 4 0 mem initializers only allowed for constructors
+4 4 0 missing argument declaration
+4 4 0 missing operand for operator %0s
+4 4 0 missing template parameter declaration
+4 4 0 nameless function definition
+4 4 0 nested enum may not have same name as its surrounding class
+4 4 0 no default arguments for overloaded operators
+4 4 0 no redefinition of default arguments
+4 4 0 no return type may be specified for conversion functions
+4 4 0 no type found for bitfield
+4 4 0 non-extern const object %0I of type %1T must be initialized
+4 4 0 non-extern reference %0I must be initialized
+6 1 0 not yet implemented (%0s)
+4 4 0 only functions can have pascal calling conventions
+4 2 0 only static constant member of integral type may have initializer
+4 4 0 operator %0s can not be overloaded
+4 4 0 parenthesized expression-list expected after type %0s
+4 4 0 qualified type expected after typename
+4 4 0 redeclaration of default argument for template parameter
+4 4 0 redeclaration of symbol %0I
+4 4 0 redeclaration of template parameter %0iT
+4 4 0 redeclaration of template parameter
+4 4 0 second argument to %0s must be of type size_t
+4 4 0 static function declared in a function
+4 4 0 static member %0I can't be initialized
+4 4 0 string literal expected in asm definition
+4 4 0 subsequent argument without default argument
+4 4 0 syntax error - catch handler expected after try
+4 4 0 syntax error - catch without matching try
+4 4 0 syntax error - class key seen after type. Missing ;?
+4 4 0 syntax error - class name expected after ::
+4 4 0 syntax error - colon expected after access specifier
+4 4 0 syntax error - declarator expected after %0s
+4 4 0 syntax error - declarator expected after type
+4 4 0 syntax error - declarator or semicolon expected after class definition
+4 4 0 syntax error - else without matching if
+4 4 0 syntax error - enum name expected after ::
+4 4 0 syntax error - identifier expected after %0s
+4 4 0 syntax error - initializer expected after =
+4 4 0 syntax error - integer constant expected after '%0s'
+4 4 0 syntax error - keyword operator must be followed by an operator or a type specifier
+4 4 0 syntax error - type tag expected after class/struct/union
+4 4 0 syntax error - type tag expected after keyword enum
+4 4 0 syntax error in enumerator - missing end brace
+4 4 0 syntax error near %0s - bad declarator
+4 4 0 template name expected
+4 4 0 template parameters do not match previous declaration
+4 4 0 too few template parameters
+4 4 0 too many arguments
+4 4 0 too many template parameters
+4 4 0 type defined in return type (forgotten ';'?)
+4 4 0 type definition in bad context
+4 4 0 type definition in condition
+4 4 0 type definition not allowed in argument list
+4 4 0 type definition not allowed in new
+4 4 0 type definition not allowed in template parameter list
+4 4 0 type expected after new
+4 4 0 type expected for %0I
+4 4 0 type expected for template parameter
+4 4 0 type expected in arg-declaration-clause
+4 4 0 type expected in cast
+4 4 0 type expected
+4 4 0 type in new expression can't be %0s
+4 4 0 type in new expression may not contain %0s declarations
+4 4 0 unexpected function definition in explicit instantiation
+4 4 0 unknown language string in linkage specifier: %0s
+1 0 0   %0qpI
+1 0 0 Instantiating function: %0pqI
+1 0 0 Instantiating member: %0pqI
+1 0 0 Instantiating type: %0iT
+1 0 0 Instantiation: template %0pqtI;
+1 0 0 missing ; after class declaration?
+2 0 1 %0T '%1O' %2T, bad argument type(s)
+2 0 1 already const
+2 0 1 array dimensions may be non-constant expressions only if new-type-id is used
+2 0 1 comma at end of enumerator list ignored
+2 0 1 enumerators can't have external linkage
+2 0 1 function %0I not declared
+2 0 1 function must return a value
+2 0 1 function takes no arguments
+2 0 1 missing declarator in typedef
+2 0 1 old style function definition
+4 4 0 initializer that is a brace-enclosed list may contain only constant expressions
+2 0 1 redeclaration of %0I
+2 0 1 redeclaration of parameter %0I
+2 0 1 redundant semicolon ignored
+2 0 1 size expression in delete [] ignored
+2 0 1 types in type::~type construct should be the same
+2 0 1 virtual specified both before and after access specifier
+4 2 1 redeclaration of %0ptqI
+4 4 0 non-extern object %0I of type %1T must be initialized
+4 4 0 non-extern const object %0I must be initialized
+4 4 2 argument deduction failed for `%0I%1Z'
+4 4 0 too many declaration levels
+5 5 0 internal table-overflow
+2 0 1 empty file
+2 0 1 function %0s has no prototype
+2 0 1 function-pointer has no prototype
+2 0 1 illegal constant in packed directive
+2 0 1 missing semi-colon
+2 0 1 arglist in declaration
+2 0 1 nfree called twice for node!!!
+2 0 1 checked node is nfreed!!!
+5 5 0 end of memory
+2 0 0 checked node is allocated!!!
+2 2 0 expression involving packed member too complicated to do atomic update
+4 4 0 packed structures can't contain float types unless the architecture supports atomic unaligned accesses (-Xmin-align=1)
+4 4 0 can't access short or int bitfields in packed sturctures unless the architecture supports atomic unaligned accesses (-Xmin-align=1)
+4 4 0 byte swapped structures can't contain float types
+4 4 0 byte swapped structures can't contain bitfields
+2 0 0 interrupt function %0s is not allowed to use floating point
+2 0 0 profile information out of date
+2 0 0 parameter %0s is never used
+2 0 0 function %0s is never used
+2 0 0 variable %0s is never used
+2 0 0 expression not used!
+2 0 0 large structure is used as argument
+2 0 0 missing return expression
+2 0 0 statement not reached
+4 4 0 can't recognize storage mode %0s
+4 4 0 too many enhanced asm parameters
+4 4 0 identifier %0s not declared
+4 4 0 asm macro line too long
+2 0 0 non-portable mix of old and new function declarations
+4 4 0 can't initialize variable of type %0s
+4 4 0 no pointers to references
+4 4 0 function return type is abstract
+4 4 0 no arrays of functions
+4 4 0 no arrays of void
+4 4 0 no arrays of references
+4 4 0 only first array size may be omitted
+4 4 0 illegal width of bitfield
+4 4 0 bitfields must be integral type
+4 4 0 no references to void
+4 4 0 no references to references (%0T)
+4 4 0 no references to bitfields
+4 4 0 function type is incomplete
+4 4 0 redeclaration of struct/union/enum %0s
+4 4 0 redeclaration of member %0s
+4 4 0 negative subscript not allowed
+2 0 0 zero subscript not allowed
+4 2 0 double precision is used in expression
+2 0 0 dangerous to take address of member of packed or swapped structure
+4 2 0 can't take address of object
+4 2 0 can't do sizeof on bitfields
+2 0 3 illegal lvalue
+4 4 0 can't push %0s!
+4 2 0 argument type does not match prototype
+4 2 0 initializer type `%0T' incompatible with object type `%1T'
+6 6 0 too many errors, good bye
+4 2 0 illegal type(s): %0s
+4 2 0 not a struct/union reference
+2 0 1 Volatile packed member cannot be accessed atomically
+2 0 1 unknown host character set, using ASCII
+2 0 1 interal error in cs_init
+2 0 1 unknown target character set
+2 0 1 unknown pragma: %0s
+2 0 1 unknown option -X%0s
+2 0 1 bad #pragma use_section: section %0s not defined
+2 0 1 bad pragma
+2 0 1 bad #pragma pack
+2 0 1 illegal constant in #pragma pack
+2 0 1 already processing #pragma asm
+2 0 1 not processing #pragma asm
+2 0 1 #pragma implementation must be in main file
+2 0 1 multiple #pragma implementation for file
+2 0 1 #pragma implementation after #pragma interface
+2 0 1 #pragma interface should not be in main file
+2 0 1 multiple #pragma interface for file
+0 0 0 %0s
+6 6 0 can't open %0s for input
+6 6 0 can't open %0s for output
+4 4 0 Cannot open error message file %0s
+2 0 1 can't open profiling file %0s
+4 4 0 profile file is of wrong version (%0s)
+4 4 0 profile file %0s is corrupted
+2 0 1 can't find current module in profile file %0s
+2 0 1 RTC: wrong number of arguments to free. Cannot check call
+6 6 0 not a const in new expr!!!
+2 0 1 overflow in constant expression
+4 2 1 illegal declaration-attribute
+2 0 1 global register %0s is already used
+2 0 1 Cannot use scratch registers for global register variables
+2 0 1 global register %0s is invalid
+6 6 0 no .cd file specified!
+6 6 0 can't open .cd file %0s!
+6 6 0 .cd file is of wrong type!
+6 6 0 .cd file is of wrong version!
+6 6 0 .cd file %0s too small?!
+6 6 0 write error - check disk space availability
+2 0 1 compiler warning in %0s
+5 5 0 illegal arg to '%0s'
+6 6 0 test version of compiler: File is too big!
+6 6 0 test version of compiler: Can't continue!
+4 4 0 no matching asm pattern exists
+5 5 0 expression too complex. Try simplify.
+5 5 0 No table entry found!
+2 0 0 address taken in initializer (PIC)
+4 4 0 variable %0s is incomplete
+5 5 0 logic error in %0s
+2 0 1 Useless assignment to variable %0s. Assigned value not used.
+2 0 1 not enough memory for reaching analysis. Some optimizations will be skipped
+2 0 1 conditional expression or part of it is always true/false
+2 0 4 variable %0s is used before set
+2 0 1 variable %0s might be used before set
+4 2 0 illegal option %0s
+4 4 0 overflow in unget buffer
+4 4 0 argument list not terminated
+4 4 0 EOF inside #if
+2 0 0 extra characters after pre-processor directive
+4 4 0 illegal identifier
+4 4 0 illegal position of ##
+4 4 0 parameter must follow a #
+4 4 0 syntax error in #if
+4 4 0 too complex #if expression
+4 4 0 include nesting too deep
+4 4 0 include path too long
+4 4 0 can't find include file %0s
+4 4 0 found %0s without #if
+4 4 0 bad include syntax
+4 4 0 illegal macro name
+4 4 0 illegal macro definition
+4 4 0 illegal redefinition of %0s
+2 0 1 macro %0s redefined
+4 4 0 incomplete line directive
+4 2 0 undefined control
+4 4 0 
+4 4 0 macro %0s: argument mismatch
+4 4 0 recursive macro %0s
+4 4 0 parse error %0s near '%1s'
+2 0 1 cannot fit enum into short integer type
+6 6 0 License error: %0s
+4 4 0 Duplicate member/base initialization of %0I
+4 4 0 Multiple members of anonymous union initialized in %0qI
+2 0 0 Illegal error level %0s in option %1s
+2 0 0 Illegal sub-option %0s for option %1s
+2 0 0 Illegal error message number %0d
+2 0 0 Cannot reduce severity of error message %0d below "%1s"
+2 0 1 returning with address/reference of a temporary object
+2 0 3 narrowing or signed-to-unsigned type conversion found: %0T to %1T
+4 4 5 illegal use of member function %0E
+4 2 2 member template function cannot be virtual
+4 4 2 illegal member template declaration
+4 2 6 non-%0s method invocation %1E() on %2s object %3E
+4 4 7 %0E cannot be converted to %1T for member reference %2E
+2 0 0 number after -O ignored
+2 0 1 no profiling information found in database %0s
+2 0 1 can't find profiling information for %0ptqI in database
+4 4 2 multiple specializations found for %0I%1Z
+1 0 2 specialization template class %0T%1Z found
+1 0 0 Instantiating specialization: %0iT
+2 0 1 register %0s is invalid
+2 0 1 register %0s is not a scratch register
+4 4 0 initializer %0E initializes neither a direct base nor a member
+4 4 5 possibly illegal use of type `%0T' as a qualifier?
+4 2 5 only constructors can be declared explicit
+2 0 0 identifier %0I not member of %1T but of %2T
+4 4 2 illegal or unexpected template arguments
+4 4 0 static initializers cannot have pointers to auto objects
+2 0 0 inline of %0ptqI does not occur in routine %1ptqI - try increasing value of -Xinline
+4 4 8 namespace declaration can occur only in global scope or namespace scope
+4 4 0 long long bitfields are not supported
+6 6 0 read error on file %0s
+6 6 0 write error on file %0s
+4 4 8 illegal namespace declaration %0I
+4 4 8 %0I is not a namespace id
+4 4 8 using directive can occur only in namespace scope or block scope
+2 2 9 non-portable behavior: operands of `%0O' are promoted to unsigned type only in non-ANSI mode
+2 2 8 scope of tag `%0I' is only this declaration/definition
+4 4 8 extern "C" symbol `%0I' has been defined twice (other definition at %1F)
+4 4 2 template argument `%0E' should be pointer/reference to object with external linkage
+2 2 2 sizeof expression assumed to contain type-id `%0T' (use `typename')
+1 0 10 class %0T is abstract because it doesn't override pure virtual %1T::%2I
+2 0 1 executable %1s not found in profiling database %0s
+2 0 1 snapshot %1s not found in profiling database %0s
+2 0 1 no definition found for inline function %0qI
+2 2 1 delete called on incomplete type %0iT
+1 0 0 %0qI has type `%1T'
+3 0 1 `(unsigned) long long' type is not supported by the ANSI standard
+3 0 1 non-int bitfields are not supported by the ANSI standard
+4 4 0 vector must occur before any other type specifiers
+4 4 0 pixel can only be specified as part of a vector type
+2 0 11 long keyword for vector types is deprecated
+4 0 0 vector pixel should have no other type specifiers
+4 0 0 vector float cannot have bool specifier
+4 0 0 %0T is an invalid vector type
+5 5 0 internal error: bad type in seen in vec_step
+4 4 0 vec_step is only valid for vector types
+4 4 0 vector initialization may only contain constants
+4 4 0 vector initialization - not enough initializer constants
+4 4 0 vector initialization - too many initializer constants
+4 4 0 vector arguments can only be passed to vector intrinsics or functions with prototypes
+4 4 12 intrinsic %0I must have %1d argument(s)
+4 4 12 invalid types on arguments to intrinsic %0I
+4 4 12 the number %1d argument to intrinsic %0I must be an unsigned constant less than %2d
+4 4 12 the number %1d argument to intrinsic %0I must be a signed constant between %2d and %3d
+4 4 12 implicit intrinsic %0I must have %1d argument(s) - when the intrinsic is enabled, optional user prototype must match
+4 4 12 invalid types on prototype to intrinsic %0I - when the intrinsic is enabled, optional user prototype must match
+4 4 12 prototype return type of intrinsic %0I should be %1T - when the intrinsic is enabled, optional user prototype must match
+2 0 1 function name matches intrinsic %0I  - rename function or disable the intrinsic with -Xintrinsic-mask
+3 0 0 structure or union cannot contain a member with an incomplete type
+4 4 0 !H or !L should be used to refer to the registers holding the parameter value
+4 4 0 only one storage mode line is allowed
+4 4 0 invalid pointer cast/assignment from/to __X mem/__Y mem
+4 4 0 cannot take address of an intrinsic function
+4 0 0 Unsupported GNU extension : %0s
+2 0 0 macro `%0s': vararg argument count does not match. expected %1d or more but given %2d
+2 0 0 undefined identifier '%0s' used in constant expression
+4 4 0 only vector literals may be used in vector initializations
+2 0 0 invalid assert name -A%0s
+2 0 0 invalid macro name %0s%1s
+6 6 0 No input file given
+6 6 0 memory unavailable
+2 2 0 unterminated comment
+2 0 0 unterminated character or string constant
+4 4 0 duplicate parameter name %0s in macro %1s
+2 2 0 implict include file "%0s" not found
+4 4 0 missing '>' in  `#include <filename> syntax'
+4 2 0 junk after `#include <filename>'
+4 2 0 junk after `#include "filename"'
+4 2 0 `#include' exptects <filename> or "filename"
+6 6 0 #if nesting too deep
+4 4 0 #include file nesting too deep. possible recursion
+4 4 0 unmatched #%0s. block starts on line %1d
+4 4 0 unmatched %0s
+4 4 0 unbalanced #%0s
+4 4 0 undefined control after #%0s
+4 4 0 EOF inside #%0s conditional
+4 4 0 illformed macro parameter list in macro `%0s'
+4 4 0 illformed macro parameter list in macro `%0s'
+4 4 0 invalid macro name `%0s'
+4 4 0 invalid argument to macro
+4 4 0 illformed macro invocation
+4 4 0 invalid assert name `%0s'
+4 2 0 `##' at start of macro definition
+2 2 0 `#' precedes non macro argument name or empty argument
+2 2 0 macro `%0s': argument count does not match. expected %1d but given %2d
+2 2 0 redefinition of macro `%0s'. previously defined here
+2 2 0 predefined macro `%0s' redefined
+4 4 0 empty token-sequence in `#assert'
+4 4 0 "no closing ')' in `#assert'
+4 4 0 garbage at the end of `#assert'
+4 4 0 invalid number in #line
+4 4 0 only a string is allowed after #line <num>
+4 4 0 string expected after #error
+4 4 0 string expected after #ident
+2 0 0 # directive not understood
+4 4 0 `defined' with out an identifier
+4 4 0 no closing ')' in `defined'
+4 2 0 bad digit in number
+4 4 0 bad number in #if...
+4 4 0 floating point number not allowed in #if...
+4 4 0 wide character constant value undefined
+4 4 0 undefined escape sequence in character constant
+4 2 0 empty character constant
+2 2 0 multi-character character constant
+2 2 0 octal escape sequence is out of range
+2 2 0 hex escape sequence is out of range
+2 2 0 character constant taken as unsigned
+4 2 0 garbage at the end of `#%0s' argument
+4 4 0 illegal identifier `%0s' in #%1s
+2 0 0 %s
+1 0 0 %s
+2 0 0 can't find include file %0s in the include path
+4 0 0 invalid 'vector bool' constant, valid values 0,1 or -1
+4 4 0 the called object is not a function
+4 4 0 array is too large
+4 4 0 reserved identifiers '__FUNCTION__' and '__PRETTY_FUNCTION__' may only be used inside a function
+2 0 0 possible redundant expression
+2 0 0 Quoted section name can't be empty, set to: %0s
+2 0 0 asm macro must be completed with '}' in the very first position
+4 0 0 Deprecated use of constructor/destructor ignored, use attribute keyword
+2 0 0 constructor/destructor priority out of range (%0d)
+2 0 0 default constructor/destructor priority out of range, setting to lowest
+4 0 0 option -Xc++-old is deprecated and dtoa will be removed in the future release
+4 0 0 CODE section without eXecution access mode: %0s
+4 0 0 non-int bitfields not allowed in packed structures
+4 4 0 absolute only supported with const int
+2 0 0 '%0s' is deprecated%1s%2s
+0 0 0 Inlining function '%0s' from file '%1s'
+0 0 0 Not inlining '%0s' from exclude list
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+4 4 0 undeclared identifier : %0L
+4 4 0 invalid assignment conversion : %1L to %0L
+4 4 0 value %0d out of range for byte
+4 4 0 value %0d out of range for char
+4 4 0 value %0d out of range for short
+4 4 0 value out of range for int
+4 4 0 value out of range for long
+4 4 0 type does not allow const initializer
+4 4 0 %0L is an invalid type for assignment/initialization/case of int variable
+4 4 0 type of initializer value must be integral
+4 4 0 float cannot be initialized with a double
+4 4 0 char must be initialized with a char or integer literal
+4 4 0 type on question test must be boolean
+4 4 0 casts to and from boolean not allowed
+4 4 0 casts between primitive and reference types not allowed
+4 4 0 undeclared type : %0s
+4 4 0 redeclaration of %0K
+4 4 0 ambiguous reference to field %0s : defined in interface %1s and interface %2s
+4 4 0 ambiguous reference to field %0s : defined in super %1s and interface %2s
+4 4 0 invalid type for new expression : %0L - must be a reference type
+4 4 0 undeclared method : %0L
+4 4 0 cannot assign primitive type to reference type
+4 4 0 invalid assignment conversion : %1K is not a subclass of %0K
+4 4 0 invalid assignment conversion : %1K does not implement %0K
+4 4 0 invalid assignment conversion : %0K is not a super-interface of %1K
+4 4 0 invalid assignment conversion : interfaces can only assign to class Object
+4 4 0 new type must be a class or array
+4 4 0 number of parameters must match definition for method %0K
+4 4 0 parameter type mismatch - %1L does not convert to %0L
+4 4 0 casts to null type not allowed
+4 4 0 null to primitive casts not allowed
+4 4 0 invalid cast : %1K is not a subclass of %0K nor vice versa
+4 4 0 invalid cast : %1K cannot implement %0K
+4 4 0 comparison operand type must be numeric
+4 4 0 cannot do (in)equality comparison between primitive and reference types
+4 4 0 bitwise complement operand must be integral
+4 4 0 logical complement operand must be boolean
+4 4 0 unary operand must be numeric
+4 4 0 binary operand must be numeric
+4 4 0 bad type on bitwise/logical operand
+4 4 0 logical operand type must be boolean
+4 4 0 shift operand type must be integral
+4 4 0 conditional expression must be boolean
+4 4 0 conditional expression in DO statement must be boolean
+4 4 0 conditional expression in FOR statement must be boolean
+4 4 0 cannot assign class type to an array type
+4 4 0 cannot assign interface type to an array type
+4 4 0 Object is the only class arrays can assign to
+4 4 0 Cloneable is the only interface arrays can assign to
+4 4 0 Base types of arrays must exactly match if one is a primitive type for assignment
+4 4 0 Base types of arrays must exactly match if one is a primitive type for casting
+4 4 0 only class Object can cast to an array type
+4 4 0 array only casts to classes Object and String
+4 4 0 Cloneable is the only interface arrays can cast to
+4 4 0 illegal cast from interface type to array type
+4 4 0 array access on non-array type
+6 6 0 EOF in comment
+6 6 0 EOF in character constant
+6 6 0 EOF in string constant
+4 4 0 line terminator in character constant
+4 4 0 line terminator in string constant
+4 4 0 empty character constant
+4 4 0 missing ending single quote in character constant
+4 4 0 illegal escape character : %0s
+4 4 0 illegal hex constant
+4 4 0 illegal octal constant
+4 4 0 illegal character : %0s
+4 2 0 non-zero float value rounded to zero
+4 2 0 floating point value (%0s) out of range
+2 0 0 option %0s ignored
+2 0 0 empty file
+4 4 0 duplicate modifier
+4 4 0 invalid field modifier : %0s
+4 4 0 only one access(protected,private,public) modifier is allowed
+4 4 0 invalid constant(interface) field modifier : %0s
+4 4 0 invalid method modifier : %0s
+4 4 0 invalid abstract method modifier : %0s
+4 4 0 invalid constructor modifier : %0s
+4 4 0 invalid class modifier : %0s
+4 4 0 invalid interface modifier : %0s
+4 4 0 field cannot be both volatile and final
+4 4 0 cannot assign to final class variable %0K in a method
+4 4 0 this or super cannot occur in static scope
+4 4 0 abstract method cannot also be %0s
+4 4 0 abstract method must be in an abstract class
+4 4 0 %0s method cannot have a body.  It should be specified only with a ;
+4 4 0 missing body. If a method is neither abstract nor native, it must have a body
+4 4 0 missing type on method %0s in class %1s
+4 4 0 final variable %0K must be initialized
+4 4 0 cannot create an instance of abstract class %0K
+4 4 0 super class %0K must be a class
+4 4 0 cannot extend final super class %0K
+4 4 0 class cannot be abstract and final
+4 4 0 implements class %0K is not an interface
+4 4 0 only one public class per compilation unit allowed
+4 4 0 Cannot use instance variable %0K in static initialization
+4 4 0 Explicit this/super must be first statement of a constructor
+4 4 0 invalid cast : %0K cannot implement %1K
+2 0 1 extra semicolon. Ignored
+4 4 0 abstract method %0K not implemented in class %1K
+4 4 0 interface method %0K in interface %1K not implemented
+4 4 0 Cannot access private member %0s of base class %1K
+4 4 0 Cannot call super class constructor %0s by name
+4 4 0 Cannot hide static final method %0K of super class %1K
+4 4 0 Cannot override static method %0K of super class %1K with an instance method
+4 4 0 Cannot override instance method %0K of super class %1K with a static method
+4 4 0 Cannot override final method %0K of super class %1K
+4 4 0 Access on overriding method %0K must be at least as great as that of the overridden method in %1K
+4 4 0 Cannot change method return types in override method %0K from %1K
+4 4 0 Cannot override default access method %0K of super class %1K with a private method
+4 4 0 Cannot override public access method %0K of super class %1K with a non-public method
+4 4 0 Protected access method %0K of super class %1K can only be overridden with a protected or public method
+4 4 0 interface method %0K of interface %1K cannot be implemented with a static function
+4 4 0 interface method %0s of interface %1s has different return type than interface %2s
+4 4 0 Cannot override abstract method %0s of interface class %1s in class %2s with a static method
+4 4 0 static %0K cannot be initialized in an instance initializer block
+4 4 0 Constructor cannot call itself
+4 4 0 A static initializer cannot contain a return statement
+4 4 0 A constructor cannot contain a return with an expression
+4 4 0 Cannot invoke the private constructor/method %0K of class %1L
+4 4 0 Cannot invoke the protected constructor/method %0K of class %1L
+4 4 0 Constructor for class %0K not found
+4 4 0 Array index must be type int or promotable to int
+4 4 0 Subscript type must be int or promotable to int
+4 4 0 Array initializer for non-array type %0L - extra braces
+4 4 0 continue/break identifier not in the scope of a defined label
+4 4 0 continue/break label does not exist in this scope
+4 4 0 break must be nested within a for, do, while, or switch
+4 4 0 continue must be nested within a for, do, or while
+4 4 0 same label %0s cannot be nested within itself
+4 4 0 switch expression must be char, byte, short, or int
+4 4 0 only one default allowed per switch
+4 4 0 case value must be constant
+4 4 0 duplicate case value %0d
+4 4 0 return must have an expression if method is declared to return a value
+4 4 0 void method cannot return an expression
+4 4 0 return expression type %1L is not assignable to return type %0L
+4 4 0 synchronized expression must be a reference type
+4 4 0 missing expression in synchronized statement
+4 4 0 field %0K not found in type %1L
+4 4 0 ambiguous invocation of method %0K
+4 4 0 cannot invoke instance method %0K from inside a static method
+4 4 0 pre or post in(dec)rement must be to a variable of numeric type
+4 4 0 cannot cast to or from void type
+4 4 0 (in)equality comparison with a boolean must be with another boolean
+4 4 0 (in)equality operand cannot be a void method
+4 4 0 colon operand cannot be a void method
+4 4 0 colon operand cannot be a mix between primitive and reference types
+4 4 0 colon operands cannot mix a boolean and a non-boolean
+4 4 0 one side of colon operator must be assignable to other side
+4 4 0 left operand of instanceof must be a reference type or null
+4 4 0 right operand of instanceof must be a reference type
+4 4 0 (in)equality reference operands must be castable to each other in at least one direction
+4 4 0 Right instanceof operand must be castable to the left operand type
+4 4 0 Final is the only modifier allowed on local variable declarations
+4 4 0 invalid cast from %0K to %1K - they share a method with different return types
+4 4 0 Final is the only modifier allowed on formal parameter declarations
+4 4 0 internal error message problem
+4 4 0 local variable %0K is not definitely initialized
+4 4 0 unreachable statement
+4 4 0 statement(s) inside while false will not be reached
+4 4 0 for expression is false so statement(s) will not be reached
+4 4 0 import %0s not found
+4 4 0 class %0L is ambiguous - it is defined in multiple package imports - %1L and %2L
+4 4 0 cannot open dependency file %0L
+4 4 0 cannot call abstract method %0K
+4 4 0 a non-void method must have a return at all exit points
+4 4 0 instance %0K cannot be referenced before construction
+4 4 0 Constructor cannot create a call chain cycle with other constructors of its class
+4 4 0 public interface method %0K in interface %1K must implemented with a public method
+4 4 0 extension .java missing for file name %0s
+4 4 0 cannot create dependency file %0s
+4 4 0 class java.lang.Object cannot have super
+4 4 0 no public class found in compilation unit
+4 4 0 circular super class hierarchy for class %0s
+4 4 0 circular interface hierarchy for interface %0K
+4 4 0 local variable %0K is not final
+4 4 0 cannot qualify %0K - it is the basic type %1L
+4 4 0 invalid forward reference in initializer to %0K
+4 4 0 throw expresson must be assignable to java.lang.Throwable
+4 4 0 throws type %0K must be assignable to java.lang.Throwable
+4 4 0 throw type %0K must be caught in an enclosing catches clause or be declared in the method's throws clause
+4 4 0 method %0K cannot have throw class %2K if it is not thrown in the hidden/overridden method in class %1K
+4 4 0 %0L is not a public class
+4 4 0 %0L is also a class or interface
+4 4 0 %0L is also a package
+4 4 0 redeclaration of %0L - a class or identifier can only be declared once per package (remove unnecessary .class files)
+4 4 0 cannot open source file %0L
+4 4 0 instance %0K cannot be used in a static method or static initializer block
+4 4 0 Cannot reference the private field %0K of class %1L
+4 4 0 Cannot reference the protected field %0K of class %1L
+4 4 0 Cannot reference the default access field %0K of class %1L from another package
+4 4 0 Cannot invoke the default access constructor/method %0K of class %1L from another package
+4 4 0 interface %1K of package %0L needs to be public to be accessible outside of its package
+4 4 0 invalid forward reference in static initializer to %0K
+4 4 0 interface %0K is duplicated in a single implements clause
+4 4 0 ambiguous reference to method %0s : defined in interface %1s and interface %2s
+4 4 0 ambiguous reference to method %0s : defined in super %1s and interface %2s
+4 4 0 catch type %0L must be assignable to java.lang.Throwable
+4 4 0 catch clause not reachable
+4 4 0 cannot invoke non-static method %0K.%1K with a MethodName of the form TypeName . Identifier
+4 4 0 cannot reference non-static field %0K.%1K with an ExpressionName of the form TypeName . Identifier
+4 4 0 parse error processing SwitchBlock - skipping to end of switch - switch block must begin with a label
+4 4 0 invalid dimension expression
+4 4 0 invalid synchronized expression
+4 4 0 invalid class name
+4 4 0 invalid method name
+4 4 0 invalid field name
+4 4 0 invalid type name
+4 4 0 parse error processing - skipping to next semi-colon
+4 4 0 invalid array initializer - missing or invalid terms
+4 4 0 invalid class member - skipping to next semi colon
+4 4 0 tokens after end of compilation unit
+4 4 0 invalid import declaration
+4 4 0 missing parenthesis in method header
+4 4 0 missing comma in parameter list
+4 4 0 skipping to end of parameter list
+4 4 0 an interface method declaration cannot have an implementation
+4 4 0 interface cannot have static initializer
+4 4 0 invalid while expression
+4 4 0 invalid do while expression
+4 4 0 invalid for update
+4 4 0 invalid for expression
+4 4 0 invalid for initializer
+4 4 0 invalid for construct - skipping to right parenthesis
+4 4 0 invalid while statement
+4 4 0 invalid do while statement
+4 4 0 invalid for statement
+4 4 0 parse error - skipping to end of block
+4 4 0 parse error - skipping to end of class body
+4 4 0 this or super cannot occur in interface scope
+4 4 0 static method %0K not allowed in inner class
+4 4 0 static field not allowed in inner class
+4 4 0 Can't make a reference from a static inner class to non-static %0K
+4 4 0 the outer local/parameter %0K must be declared final for an inner class reference
+4 4 0 ambiguous reference to %0K - either preface it with this. to refer to the outer field or rename the outer local
+4 4 0 a super from a constructor derived from an inner class must be qualified with a reference to the super's outer class
+4 4 0 only calls to inner class supers should be qualified
+4 4 0 a qualified super should be qualifed with a reference to the super's outer class %1K, not %0K
+4 4 0 invalid block nested class modifier : %0s
+4 4 0 inner class name %0L cannot match any outer class names
+4 4 0 A instance initializer cannot contain a return statement
+4 4 0 circularity error - super class name %0L cannot match any outer class names
+4 4 0 cannot call super class constructor from Object since it has no super class
+4 4 0 blank final variable %0K can be initialized once and only once along any execution path
+4 4 0 cannot assign to final qualified field %0K.%1K
+4 4 0 cannot assign multiple times to class final %0K
+4 4 0 static %0K cannot be initialized in a constructor
+4 4 0 instance %0K should only be initialized in constructors that don't make explicit this calls
+4 4 0 cannot modify final parameter %0K
+4 4 0 interface type %0K can only be used as a new type as part of an ambiguous class declaration
+4 4 0 ambiguous class that implements interface type %0K must have an empty argument list since its superclass is Object
+4 4 0 cannot create default constructor for class %1K since super's constructor thrown exception %0K must be handled
+2 0 0 target implementation does not support long data type - using int instead
+4 4 0 seek failure for dependency in archive %0L
+4 4 0 this qualifier %0K must be an outer class
+4 4 0 new of an inner type %0K must be qualified with an instance of the outer type %1K
+4 4 0 inner class %2K cannot inherit a static %0K from interface %1K
+2 0 0 Only the first main function will be used as the entry point
+4 4 0 unrecognized pre-processor directive %0s
+4 4 0 verification error: %0s
+4 4 0 invalid directory for -d : %0s - cannot create
+4 4 0 cannot create package file %0s for package %1s
+4 4 0 cannot find needed constructor in class %0K
+4 4 0 missing argument list (parentheses) in new invocation
+4 4 0 throws expression must be comma separated list of classes - expecting '{'
+4 4 0 class %0L must be public to be accessed from another package
+4 4 0 primary expression must be of type %1K to correspond with the enclosing class of the 'new' type %0K
+4 4 0 primary expression must be of an enclosing type of 'new' type %0K
+4 4 0 inner class import not found for %0L
+4 4 0 cannot import %0L - it's not a class
+4 4 0 public class %0L must be defined in a file called %1L.java
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+0 0 0 
+7 0 0 unknown error
+7 0 0 last line of file ends without a newline
+7 0 0 last line of file ends with a backslash
+7 0 0 #include file %sq includes itself
+7 0 0 out of memory
+7 0 0 could not open source file %sq
+7 0 0 comment unclosed at end of file
+7 0 0 unrecognized token
+7 0 0 missing closing quote
+7 0 0 nested comment is not allowed
+7 0 0 "#" not expected here
+7 0 0 unrecognized preprocessing directive
+7 0 0 parsing restarts here after previous syntax error
+7 0 0 expected a file name
+7 0 0 extra text after expected end of preprocessing directive
+7 0 0 %sq is not a file containing source text
+7 0 0 %sq is not a valid source file name
+7 0 0 expected a "]"
+7 0 0 expected a ")"
+7 0 0 extra text after expected end of number
+7 0 0 identifier %sq is undefined
+7 0 0 type qualifiers are meaningless in this declaration
+7 0 0 invalid hexadecimal number
+7 0 0 integer constant is too large
+7 0 0 invalid octal digit
+7 0 0 quoted string should contain at least one character
+7 0 0 too many characters in character constant
+7 0 0 character value is out of range
+7 0 0 expression must have a constant value
+7 0 0 expected an expression
+7 0 0 floating constant is out of range
+7 0 0 expression must have integral type
+7 0 0 expression must have arithmetic type
+7 0 0 expected a line number
+7 0 0 invalid line number
+7 0 0 #error directive: %s
+7 0 0 the #if for this directive is missing
+7 0 0 the #endif for this directive is missing
+7 0 0 directive is not allowed -- an #else has already appeared
+7 0 0 division by zero
+7 0 0 expected an identifier
+7 0 0 expression must have arithmetic or pointer type
+7 0 0 operand types are incompatible (%t1 and %t2)
+7 0 0 expression must have integral or pointer type
+7 0 0 expression must have pointer type
+7 0 0 #undef may not be used on this predefined name
+7 0 0 this predefined name may not be redefined
+7 0 0 incompatible redefinition of macro %nod
+7 0 0 cast between pointer-to-object and pointer-to-function
+7 0 0 duplicate macro parameter name
+7 0 0 "##" may not be first in a macro definition
+7 0 0 "##" may not be last in a macro definition
+7 0 0 expected a macro parameter name
+7 0 0 expected a ":"
+7 0 0 too few arguments in macro invocation
+7 0 0 too many arguments in macro invocation
+7 0 0 operand of sizeof may not be a function
+7 0 0 this operator is not allowed in a constant expression
+7 0 0 this operator is not allowed in a preprocessing expression
+7 0 0 function call is not allowed in a constant expression
+7 0 0 this operator is not allowed in an integral constant expression
+7 0 0 integer operation result is out of range
+7 0 0 shift count is negative
+7 0 0 shift count is too large
+7 0 0 declaration does not declare anything
+7 0 0 expected a ";"
+7 0 0 enumeration value is out of "int" range
+7 0 0 expected a "}"
+7 0 0 integer conversion resulted in a change of sign
+7 0 0 integer conversion resulted in truncation
+7 0 0 incomplete type is not allowed
+7 0 0 operand of sizeof may not be a bit field
+7 0 0 operand of "&" may not be a constant
+7 0 0 operand of "&" in an initializer must be static
+7 0 0 invalid operand of "&"
+7 0 0 operand of "*" must be a pointer
+7 0 0 argument to macro is empty
+7 0 0 this declaration has no storage class or type specifier
+7 0 0 a parameter declaration may not have an initializer
+7 0 0 expected a type specifier
+7 0 0 a storage class may not be specified here
+7 0 0 more than one storage class may not be specified
+7 0 0 storage class is not first
+7 0 0 type qualifier specified more than once
+7 0 0 invalid combination of type specifiers
+7 0 0 invalid storage class for a parameter
+7 0 0 invalid storage class for a function
+7 0 0 a type specifier may not be used here
+7 0 0 array of functions is not allowed
+7 0 0 array of void is not allowed
+7 0 0 function returning function is not allowed
+7 0 0 function returning array is not allowed
+7 0 0 identifier-list parameters may only be used in a function definition
+7 0 0 function type may not come from a typedef
+7 0 0 the size of an array must be greater than zero
+7 0 0 array is too large
+7 0 0 a translation unit must contain at least one declaration
+7 0 0 a function may not return a value of this type
+7 0 0 an array may not have elements of this type
+7 0 0 a declaration here must declare a parameter
+7 0 0 duplicate parameter name
+7 0 0 %sq has already been declared in the current scope
+7 0 0 forward declaration of enum type is nonstandard
+7 0 0 class is too large
+7 0 0 struct or union is too large
+7 0 0 invalid size for bit field
+7 0 0 invalid type for a bit field
+7 0 0 zero-length bit field must be unnamed
+7 0 0 signed bit field of length 1
+7 0 0 expression must have (pointer-to-) function type
+7 0 0 expected either a definition or a tag name
+7 0 0 statement is unreachable
+7 0 0 expected "while"
+7 0 0 this use of a default argument is nonstandard
+7 0 0 %n was referenced but not defined
+7 0 0 a continue statement may only be used within a loop
+7 0 0 a break statement may only be used within a loop or switch
+7 0 0 non-void %n should return a value
+7 0 0 a void function may not return a value
+7 0 0 cast to type %t is not allowed
+7 0 0 return value type does not match the function type
+7 0 0 a case label may only be used within a switch
+7 0 0 a default label may only be used within a switch
+7 0 0 case label value has already appeared in this switch
+7 0 0 default label has already appeared in this switch
+7 0 0 expected a "("
+7 0 0 expression must be an lvalue
+7 0 0 expected a statement
+7 0 0 loop is not reachable from preceding code
+7 0 0 a block-scope function may only have extern storage class
+7 0 0 expected a "{"
+7 0 0 expression must have pointer-to-class type
+7 0 0 expression must have pointer-to-struct-or-union type
+7 0 0 expected a member name
+7 0 0 expected a field name
+7 0 0 %n has no member %sq
+7 0 0 %n has no field %sq
+7 0 0 expression must be a modifiable lvalue
+7 0 0 taking the address of a register variable is not allowed
+7 0 0 taking the address of a bit field is not allowed
+7 0 0 too many arguments in function call
+7 0 0 unnamed prototyped parameters not allowed when body is present
+7 0 0 expression must have pointer-to-object type
+7 0 0 program too large or complicated to compile
+7 0 0 a value of type %t1 cannot be used to initialize an entity of type %t2
+7 0 0 %n may not be initialized
+7 0 0 too many initializer values
+7 0 0 declaration is incompatible with %nfd
+7 0 0 %n has already been initialized
+7 0 0 a global-scope declaration may not have this storage class
+7 0 0 a type name may not be redeclared as a parameter
+7 0 0 a typedef name may not be redeclared as a parameter
+7 0 0 conversion of nonzero integer to pointer
+7 0 0 expression must have class type
+7 0 0 expression must have struct or union type
+7 0 0 old-fashioned assignment operator
+7 0 0 old-fashioned initializer
+7 0 0 expression must be an integral constant expression
+7 0 0 expression must be an lvalue or a function designator
+7 0 0 declaration is incompatible with previous %nod
+7 0 0 name conflicts with previously used external name %sq
+7 0 0 unrecognized #pragma
+7 0 0 expression must have arithmetic, pointer, or void type
+7 0 0 could not open temporary file %sq
+7 0 0 name of directory for temporary files is too long (%sq)
+7 0 0 too few arguments in function call
+7 0 0 invalid floating constant
+7 0 0 argument of type %t1 is incompatible with parameter of type %t2
+7 0 0 a function type is not allowed here
+7 0 0 expected a declaration
+7 0 0 pointer points outside of underlying object
+7 0 0 invalid type conversion
+7 0 0 external/internal linkage conflict with previous declaration
+7 0 0 floating-point value does not fit in required integral type
+7 0 0 expression has no effect
+7 0 0 subscript out of range
+7 0 0 constant string subscript out of range
+7 0 0 %n was declared but never referenced
+7 0 0 "&" applied to an array has no effect
+7 0 0 right operand of "%%" is zero
+7 0 0 argument is incompatible with formal parameter
+7 0 0 argument is incompatible with corresponding format string conversion
+7 0 0 could not open source file %sq (no directories in search list)
+7 0 0 type of cast must be integral
+7 0 0 type of cast must be arithmetic or pointer
+7 0 0 dynamic initialization in unreachable code
+7 0 0 pointless comparison of unsigned integer with zero
+7 0 0 use of "=" where "==" may have been intended
+7 0 0 enumerated type mixed with another type
+7 0 0 error while writing %s file
+7 0 0 invalid intermediate language file
+7 0 0 type qualifier is meaningless on cast type
+7 0 0 unrecognized character escape sequence
+7 0 0 zero used for undefined preprocessing identifier
+7 0 0 expected an asm string
+7 0 0 an asm function must be prototyped
+7 0 0 an asm function may not have an ellipsis
+7 0 0 asm may only be used to declare a function
+7 0 0 an asm function may not have a storage class
+7 0 0 asm return value size does not match function return type
+7 0 0 asm parameter size does not match function parameter size
+7 0 0 expected a "%"
+7 0 0 invalid combination of asm control specifiers
+7 0 0 extra text after expected end of asm control line
+7 0 0 expected an asm control specifier
+7 0 0 this asm name is already defined
+7 0 0 invalid register name
+7 0 0 an asm parameter may not have void type
+7 0 0 expected an asm type specification
+7 0 0 invalid asm type specification
+7 0 0 invalid asm type width
+7 0 0 invalid asm constant
+7 0 0 an asm temporary may not have this type
+7 0 0 this parameter may not be referenced because it has no type
+7 0 0 the return value may not be referenced because its type is void
+7 0 0 invalid register specifier
+7 0 0 an expansion leaf must have at least one expansion line
+7 0 0 the return value may not be referenced because it has no type
+7 0 0 the return value may not have this asm type
+7 0 0 error while deleting file %sq
+7 0 0 integral value does not fit in required floating-point type
+7 0 0 floating-point value does not fit in required floating-point type
+7 0 0 floating-point operation result is out of range
+7 0 0 function declared implicitly
+7 0 0 the format string requires additional arguments
+7 0 0 the format string ends before this argument
+7 0 0 invalid format string conversion
+7 0 0 macro recursion
+7 0 0 trailing comma is nonstandard
+7 0 0 bit field cannot contain all values of the enumerated type
+7 0 0 nonstandard type for a bit field
+7 0 0 declaration is not visible outside of function
+7 0 0 old-fashioned typedef of "void" ignored
+7 0 0 left operand is not a struct or union containing this field
+7 0 0 pointer does not point to struct or union containing this field
+7 0 0 variable %sq was declared with a never-completed type
+7 0 0 controlling expression is constant
+7 0 0 selector expression is constant
+7 0 0 invalid specifier on a parameter
+7 0 0 invalid specifier outside a class declaration
+7 0 0 duplicate specifier in declaration
+7 0 0 a union is not allowed to have a base class
+7 0 0 multiple access control specifiers are not allowed
+7 0 0 class or struct definition is missing
+7 0 0 qualified name is not a member of class %t or its base classes
+7 0 0 a nonstatic member reference must be relative to a specific object
+7 0 0 a nonstatic data member may not be defined outside its class
+7 0 0 %n has already been defined
+7 0 0 pointer to reference is not allowed
+7 0 0 reference to reference is not allowed
+7 0 0 reference to void is not allowed
+7 0 0 array of reference is not allowed
+7 0 0 reference %n requires an initializer
+7 0 0 expected a ","
+7 0 0 type name is not allowed
+7 0 0 type definition is not allowed
+7 0 0 invalid redeclaration of type name %nod
+7 0 0 const %n requires an initializer
+7 0 0 "this" may only be used inside a nonstatic member function
+7 0 0 constant value is not known
+7 0 0 explicit type is missing ("int" assumed)
+7 0 0 access control not specified (%sq by default)
+7 0 0 not a class or struct name
+7 0 0 duplicate base class name
+7 0 0 invalid base class
+7 0 0 %n is inaccessible
+7 0 0 %no is ambiguous
+7 0 0 old-style parameter list (anachronism)
+7 0 0 declaration may not appear after executable statement in block
+7 0 0 implicit conversion to inaccessible base class %t is not allowed
+7 0 0 name is not a member of a base class of %sq
+7 0 0 access adjustment in a "private" section is not allowed
+7 0 0 increasing an inherited member's access is not allowed
+7 0 0 restricting an inherited member's access is not allowed
+7 0 0 improperly terminated macro invocation
+7 0 0 invalid access declaration -- %no1 is hidden by %no2
+7 0 0 name followed by "::" must be a class or namespace name
+7 0 0 invalid friend declaration
+7 0 0 a constructor or destructor may not return a value
+7 0 0 invalid destructor declaration
+7 0 0 declaration of a member with the same name as its class
+7 0 0 global-scope qualifier (leading "::") is not allowed
+7 0 0 the global scope has no %sq
+7 0 0 qualified name is not allowed
+7 0 0 NULL reference is not allowed
+7 0 0 initialization with "{...}" is not allowed for object of type %t
+7 0 0 base class %t is ambiguous
+7 0 0 derived class %t1 contains more than one instance of class %t2
+7 0 0 cannot convert pointer to base class %t2 to pointer to derived class %t1 -- base class is virtual
+7 0 0 no instance of constructor %no matches the argument list
+7 0 0 copy constructor for class %t is ambiguous
+7 0 0 no default constructor exists for class %t
+7 0 0 %sq is not a nonstatic data member or base class of class %t
+7 0 0 indirect nonvirtual base class is not allowed
+7 0 0 invalid union member -- class %t has a disallowed member function
+7 0 0 cannot overload functions -- parameter types are too similar
+7 0 0 invalid use of non-lvalue array
+7 0 0 expected an operator
+7 0 0 inherited member is not allowed
+7 0 0 cannot determine which instance of %n is intended
+7 0 0 a pointer to a bound function may only be used to call the function
+7 0 0 typedef name has already been declared (with same type)
+7 0 0 %n has already been defined
+7 0 0 type does not match any instance of %n
+7 0 0 no instance of %n matches the argument list
+7 0 0 type definition is not allowed in function return type declaration
+7 0 0 default argument not at end of parameter list
+7 0 0 redefinition of default argument
+7 0 0 more than one instance of %n matches the argument list:
+7 0 0 more than one instance of constructor %no matches the argument list:
+7 0 0 default argument of type %t1 is incompatible with parameter of type %t2
+7 0 0 cannot overload functions distinguished by return type alone
+7 0 0 no suitable user-defined conversion from %t1 to %t2 exists
+7 0 0 type qualifier is not allowed on this function
+7 0 0 only nonstatic member functions may be virtual
+7 0 0 the object has cv-qualifiers that are not compatible with the member function
+7 0 0 program too large to compile (too many virtual functions)
+7 0 0 return type is not identical to nor covariant with return type %t of overridden virtual function %n
+7 0 0 override of virtual %n is ambiguous
+7 0 0 pure specifier ("= 0") allowed only on virtual functions
+7 0 0 badly-formed pure specifier (only "= 0" is allowed)
+7 0 0 data member initializer is not allowed
+7 0 0 object of abstract class type %t is not allowed:
+7 0 0 function returning abstract class %t is not allowed:
+7 0 0 duplicate friend declaration
+7 0 0 inline specifier allowed on function declarations only
+7 0 0 "inline" is not allowed
+7 0 0 invalid storage class for an inline function
+7 0 0 invalid storage class for a class member
+7 0 0 local class member %n requires a definition
+7 0 0 %nf is inaccessible
+7 0 0 direct path to base class %t gives less access than indirect path
+7 0 0 class %t has no copy constructor to copy a const object
+7 0 0 defining an implicitly declared member function is not allowed
+7 0 0 class %t has no suitable copy constructor
+7 0 0 linkage specification is not allowed
+7 0 0 unknown external linkage specification
+7 0 0 linkage specification is incompatible with previous %nod
+7 0 0 more than one instance of overloaded function %no has "C" linkage
+7 0 0 class %t has more than one default constructor
+7 0 0 value copied to temporary, reference to temporary used
+7 0 0 "operator%s" must be a member function
+7 0 0 operator may not be a static member function
+7 0 0 no arguments allowed on user-defined conversion
+7 0 0 too many parameters for this operator function
+7 0 0 too few parameters for this operator function
+7 0 0 nonmember operator requires a parameter with class type
+7 0 0 default argument is not allowed
+7 0 0 more than one user-defined conversion from %t1 to %t2 applies:
+7 0 0 no operator %sq matches these operands
+7 0 0 more than one operator %sq matches these operands:
+7 0 0 first parameter of allocation function must be of type "size_t"
+7 0 0 allocation function requires "void *" return type
+7 0 0 deallocation function requires "void" return type
+7 0 0 first parameter of deallocation function must be of type "void *"
+7 0 0 second parameter of deallocation function must be of type "size_t"
+7 0 0 type must be an object type
+7 0 0 base class %t has already been initialized
+7 0 0 base class name required -- %t assumed (anachronism)
+7 0 0 %n has already been initialized
+7 0 0 name of member or base class is missing
+7 0 0 assignment to "this" (anachronism)
+7 0 0 "overload" keyword used (anachronism)
+7 0 0 invalid anonymous union -- nonpublic member is not allowed
+7 0 0 invalid anonymous union -- member function is not allowed
+7 0 0 anonymous union at global or namespace scope must be declared static
+7 0 0 %nf provides no initializer for:
+7 0 0 implicitly generated constructor for class %t cannot initialize:
+7 0 0 %n defines no constructor to initialize the following:
+7 0 0 %n has an uninitialized const or reference member
+7 0 0 %n has an uninitialized const field
+7 0 0 class %t has no assignment operator to copy a const object
+7 0 0 class %t has no suitable assignment operator
+7 0 0 ambiguous assignment operator for class %t
+7 0 0 const or volatile qualifier is not allowed
+7 0 0 declaration requires a typedef name
+7 0 0 unknown error
+7 0 0 "virtual" is not allowed
+7 0 0 "static" is not allowed
+7 0 0 cast of bound function to normal function pointer (anachronism)
+7 0 0 expression must have pointer-to-member type
+7 0 0 extra ";" ignored
+7 0 0 nonstandard member constant declaration (standard form is a static const integral member)
+7 0 0 a pointer to const may not be deleted
+7 0 0 no instance of overloaded %no matches the argument list
+7 0 0 operator delete() may not be overloaded
+7 0 0 no instance of %n matches the required type
+7 0 0 delete array size expression used (anachronism)
+7 0 0 "operator->" for class %t1 returns invalid type %t2
+7 0 0 a cast to abstract class %t is not allowed:
+7 0 0 function "main" may not be called or have its address taken
+7 0 0 a new-initializer may not be specified for an array
+7 0 0 member function %no may not be redeclared outside its class
+7 0 0 pointer to incomplete class type is not allowed
+7 0 0 reference to local variable of enclosing function is not allowed
+7 0 0 single-argument function used for postfix %sq (anachronism)
+7 0 0 access adjustment is not allowed -- mixed accessibility for %n
+7 0 0 implicitly generated assignment operator cannot copy:
+7 0 0 cast to array type is nonstandard (treated as cast to %t)
+7 0 0 %n has an operator new%s() but no default operator delete%s()
+7 0 0 %n has a default operator delete%s() but no operator new%s()
+7 0 0 destructor for base class %t is not virtual
+7 0 0 %n has no accessible constructors
+7 0 0 %np has already been declared
+7 0 0 function "main" may not be declared inline
+7 0 0 member function with the same name as its class must be a constructor
+7 0 0 using nested %n (anachronism)
+7 0 0 a destructor may not have parameters
+7 0 0 copy constructor for class %t may not have a parameter of type %t
+7 0 0 %n returns incomplete type %t
+7 0 0 protected %n is not accessible through a %t pointer or object
+7 0 0 a parameter is not allowed
+7 0 0 an "asm" declaration is not allowed here
+7 0 0 no suitable conversion function from %t1 to %t2 exists
+7 0 0 delete of pointer to incomplete class
+7 0 0 no suitable constructor exists to convert from %t1 to %t2
+7 0 0 more than one constructor applies to convert from %t1 to %t2:
+7 0 0 more than one conversion function from %t1 to %t2 applies:
+7 0 0 more than one conversion function from %t to a built-in type applies:
+0 0 0 const %n
+0 0 0 reference %n
+0 0 0 %npT
+0 0 0 built-in operator %sq
+0 0 0 %no (ambiguous by inheritance)
+7 0 0 a constructor or destructor may not have its address taken
+7 0 0 dollar sign ("$") used in identifier
+7 0 0 temporary used for initial value of reference to non-const (anachronism)
+7 0 0 qualified name is not allowed in member declaration
+7 0 0 enumerated type mixed with another type (anachronism)
+7 0 0 the size of an array in "new" must be non-negative
+7 0 0 returning reference to local temporary
+7 0 0 const qualifier dropped in initializing reference to non-const
+7 0 0 "enum" declaration is not allowed
+7 0 0 qualifiers dropped in binding reference of type %t1 to initializer of type %t2
+7 0 0 a reference of type %t1 (not const-qualified) cannot be initialized with a value of type %t2
+7 0 0 a pointer to function may not be deleted
+7 0 0 conversion function must be a nonstatic member function
+7 0 0 template declaration is not allowed here
+7 0 0 expected a "<"
+7 0 0 expected a ">"
+7 0 0 template parameter declaration is missing
+7 0 0 argument list for %nf is missing
+7 0 0 too few arguments for %nf
+7 0 0 too many arguments for %nf
+7 0 0 template parameter for a function template must be a type
+7 0 0 %n1 is not used in declaring the parameter types of %n2
+7 0 0 two nested types have the same name: %no1 and %nod2 (cfront compatibility)
+7 0 0 global %no1 was declared after nested %nod2 (cfront compatibility)
+7 0 0 template parameter %no was declared but never referenced
+7 0 0 more than one instance of %n matches the required type
+7 0 0 the type "long long" is nonstandard
+7 0 0 omission of %sq is nonstandard
+7 0 0 return type may not be specified on a conversion function
+0 0 0 detected during:
+0 0 0 instantiation of %nt %p
+0 0 0 implicit generation of %nt %p
+7 0 0 excessive recursion at instantiation of %n
+7 0 0 %sq is not a function or static data member
+7 0 0 argument of type %t1 is incompatible with template parameter of type %t2
+7 0 0 initialization requiring a temporary or conversion is not allowed
+7 0 0 declaration of %sq hides function parameter
+7 0 0 initial value of reference to non-const must be an lvalue
+0 0 0 implicit definition of %nt %p
+7 0 0 "template" is not allowed
+7 0 0 %t is not a class template
+7 0 0 static data member may not be an anonymous union
+7 0 0 "main" is not a valid name for a function template
+7 0 0 invalid reference to %n (union/nonunion mismatch)
+7 0 0 a template argument may not reference a local type
+7 0 0 tag kind of %s is incompatible with declaration of %nfd
+7 0 0 the global scope has no tag named %sq
+7 0 0 %n has no tag member named %sq
+7 0 0 member function typedef (allowed for cfront compatibility)
+7 0 0 %n may be used only in pointer-to-member declaration
+7 0 0 unknown error
+7 0 0 a template argument may not reference a non-external entity
+7 0 0 name followed by "::~" must be a class name or a type name
+7 0 0 destructor name does not match name of class %t
+7 0 0 type used as destructor name does not match type %t
+7 0 0 %n redeclared "inline" after being called
+7 0 0 destructor name does not match left operand of "->" or "."
+7 0 0 invalid storage class for a template declaration
+7 0 0 %n is an inaccessible type (allowed for cfront compatibility)
+7 0 0 a return type is not allowed
+7 0 0 invalid explicit instantiation declaration
+7 0 0 %nf is not an entity that can be instantiated
+7 0 0 compiler generated %n cannot be explicitly instantiated
+7 0 0 inline %n cannot be explicitly instantiated
+7 0 0 pure virtual %n cannot be explicitly instantiated
+7 0 0 %n cannot be instantiated -- no template definition was supplied
+7 0 0 %n cannot be instantiated -- it has been explicitly specialized
+7 0 0 class %t has no constructor
+7 0 0 %n1 must be used in a parameter without a default value in %n2
+7 0 0 no instance of %n matches the specified type
+7 0 0 declaring a void parameter list with a typedef is nonstandard
+7 0 0 global %n1 used instead of %n2 (cfront compatibility)
+7 0 0 template parameter %sq may not be redeclared in this scope
+7 0 0 declaration of %sq hides template parameter
+7 0 0 template argument list must match the parameter list
+7 0 0 conversion function to convert from %t1 to %t2 is not allowed
+7 0 0 extra parameter of postfix "operator%s" must be of type "int"
+7 0 0 an operator name must be declared as a function
+7 0 0 operator name is not allowed
+7 0 0 %n cannot be specialized in the current scope
+7 0 0 nonstandard form for taking the address of a member function
+7 0 0 too few template parameters -- does not match previous declaration
+7 0 0 too many template parameters -- does not match previous declaration
+7 0 0 function template for operator delete(void *) is not allowed
+7 0 0 class template and template parameter may not have the same name
+7 0 0 %no2 cannot be used to designate constructor for %n2
+7 0 0 a template argument may not reference an unnamed type
+7 0 0 enumerated type is not allowed
+7 0 0 type qualifier on a reference type is not allowed
+7 0 0 a value of type %t1 cannot be assigned to an entity of type %t2
+7 0 0 pointless comparison of unsigned integer with a negative constant
+7 0 0 cannot convert to incomplete class %t
+7 0 0 const object requires an initializer
+7 0 0 object has an uninitialized const or reference member
+7 0 0 nonstandard preprocessing directive
+7 0 0 %n may not have a template argument list
+7 0 0 initialization with "{...}" expected for aggregate object
+7 0 0 pointer-to-member selection class types are incompatible (%t1 and %t2)
+7 0 0 pointless friend declaration
+7 0 0 "." used in place of "::" to form a qualified name (cfront anachronism)
+7 0 0 non-const function called for const object (anachronism)
+7 0 0 a dependent statement may not be a declaration
+7 0 0 a parameter may not have void type
+0 0 0 instantiation of %na %p
+0 0 0 processing of template argument list for %na %p
+7 0 0 this operator is not allowed in a template argument expression
+7 0 0 try block requires at least one handler
+7 0 0 handler requires an exception declaration
+7 0 0 handler is masked by default handler
+7 0 0 handler is potentially masked by previous handler for type %t
+7 0 0 use of a local type to specify an exception
+7 0 0 redundant type in exception specification
+7 0 0 exception specification is incompatible with that of previous %nd%s\=':'
+0 0 0 previously specified: no exceptions will be thrown
+0 0 0 previously omitted: %t
+0 0 0 previously specified but omitted here: %t
+7 0 0 support for exception handling is disabled
+7 0 0 omission of exception specification is incompatible with previous %nd
+7 0 0 could not create instantiation request file %sq
+7 0 0 non-arithmetic operation not allowed in nontype template argument
+7 0 0 use of a local type to declare a nonlocal variable
+7 0 0 use of a local type to declare a function
+7 0 0 transfer of control bypasses initialization of:
+0 0 0 %nd
+7 0 0 transfer of control into an exception handler
+7 0 0 %n is used before its value is set
+7 0 0 %n was set but never used
+7 0 0 %n cannot be defined in the current scope
+7 0 0 exception specification is not allowed
+7 0 0 external/internal linkage conflict for %nfd
+7 0 0 %nf will not be called for implicit or explicit conversions
+7 0 0 tag kind of %s is incompatible with template parameter of type %t
+7 0 0 function template for operator new(size_t) is not allowed
+7 0 0 invalid access declaration -- inherited name %sq is ambiguous
+7 0 0 pointer to member of type %t is not allowed
+7 0 0 ellipsis is not allowed in operator function parameter list
+7 0 0 %no is reserved for future use as a keyword
+7 0 0 invalid macro definition: 
+7 0 0 invalid macro undefinition: 
+7 0 0 invalid preprocessor output file 
+7 0 0 cannot open preprocessor output file 
+7 0 0 IL file name must be specified if input is 
+7 0 0 invalid IL output file 
+7 0 0 cannot open IL output file 
+7 0 0 invalid C output file 
+7 0 0 cannot open C output file 
+7 0 0 error in debug option argument
+7 0 0 invalid option: 
+7 0 0 back end requires name of IL file
+7 0 0 could not open IL file 
+7 0 0 invalid number: 
+7 0 0 incorrect host CPU id
+7 0 0 invalid instantiation mode: 
+7 0 0 missing include file directory name
+7 0 0 invalid error limit: 
+7 0 0 invalid raw-listing output file 
+7 0 0 cannot open raw-listing output file 
+7 0 0 invalid cross-reference output file 
+7 0 0 cannot open cross-reference output file 
+7 0 0 invalid error output file 
+7 0 0 cannot open error output file 
+7 0 0 virtual function tables can only be suppressed when compiling C++
+7 0 0 anachronism option can be used only when compiling C++
+7 0 0 instantiation mode option can be used only when compiling C++
+7 0 0 automatic instantiation mode can be used only when compiling C++
+7 0 0 implicit template inclusion mode can be used only when compiling C++
+7 0 0 exception handling option can be used only when compiling C++
+7 0 0 strict ANSI mode is incompatible with K&R mode
+7 0 0 strict ANSI mode is incompatible with cfront mode
+7 0 0 missing source file name
+7 0 0 output files may not be specified when compiling several input files
+7 0 0 too many arguments on command line
+7 0 0 an output file was specified, but none is needed
+7 0 0 IL display requires name of IL file
+7 0 0 a template parameter may not have void type
+7 0 0 excessive recursive instantiation of %n due to instantiate-all mode
+7 0 0 strict ANSI mode is incompatible with allowing anachronisms
+7 0 0 a throw expression may not have void type
+7 0 0 local instantiation mode is incompatible with automatic instantiation
+7 0 0 parameter of abstract class type %t is not allowed:
+7 0 0 array of abstract class %t is not allowed:
+7 0 0 floating-point template parameter is nonstandard
+7 0 0 this pragma must immediately precede a declaration
+7 0 0 this pragma must immediately precede a statement
+7 0 0 this pragma must immediately precede a declaration or statement
+7 0 0 this kind of pragma may not be used here
+7 0 0 %nf1 does not match %no2 -- virtual function override intended?
+7 0 0 overloaded virtual function %no1 is only partially overridden in %n2
+7 0 0 specific definition of inline template function must precede its first use
+7 0 0 invalid error tag: 
+7 0 0 invalid error number: 
+7 0 0 parameter type involves pointer to array of unknown bound
+7 0 0 parameter type involves reference to array of unknown bound
+7 0 0 pointer-to-member-function cast to pointer to function
+7 0 0 struct or union declares no named members
+7 0 0 nonstandard unnamed field
+7 0 0 nonstandard unnamed member
+7 0 0 a function type cannot be used as a template argument
+7 0 0 invalid precompiled header output file 
+7 0 0 cannot open precompiled header output file 
+7 0 0 %sq is not a type name
+7 0 0 cannot open precompiled header input file 
+7 0 0 precompiled header file %sq is either invalid or not generated by this version of the compiler
+7 0 0 precompiled header file %sq was not generated in this directory
+7 0 0 header files used to generate precompiled header file %sq have changed
+7 0 0 the command line options do not match those used when precompiled header file %sq was created
+7 0 0 the initial sequence of preprocessing directives is not compatible with those of precompiled header file %sq
+7 0 0 unable to obtain mapped memory
+7 0 0 "%s": using precompiled header file "%s"
+7 0 0 "%s": creating precompiled header file "%s"
+7 0 0 memory usage conflict with precompiled header file %sq
+7 0 0 invalid PCH memory size 
+7 0 0 PCH options must appear first in the command line
+7 0 0 insufficient memory for PCH memory allocation
+7 0 0 precompiled header files may not be used when compiling several input files
+7 0 0 insufficient preallocated memory for generation of precompiled header file (%s bytes required)
+7 0 0 very large entity in program prevents generation of precompiled header file
+7 0 0 %sq is not a valid directory
+7 0 0 cannot build temporary file name
+7 0 0 "restrict" is not allowed
+7 0 0 a pointer or reference to function type may not be qualified by "restrict"
+7 0 0 %sq is an unrecognized __declspec attribute
+7 0 0 a calling convention modifier may not be specified here
+7 0 0 conflicting calling convention modifiers
+7 0 0 strict ANSI mode is incompatible with Microsoft mode
+7 0 0 cfront mode is incompatible with Microsoft mode
+7 0 0 calling convention specified here is ignored
+7 0 0 a calling convention may not be followed by a nested declarator
+7 0 0 calling convention is ignored for this type
+7 0 0 calling conventions may only be applied to function types
+7 0 0 declaration modifiers are incompatible with previous declaration
+7 0 0 the modifier %sq is not allowed on this declaration
+7 0 0 transfer of control into a try block
+7 0 0 inline specification is incompatible with previous %nod
+7 0 0 closing brace of template definition not found
+7 0 0 wchar_t keyword option can be used only when compiling C++
+7 0 0 invalid packing alignment value
+7 0 0 expected an integer constant
+7 0 0 call of pure virtual function
+7 0 0 invalid source file identifier string
+7 0 0 a class template cannot be defined in a friend declaration
+7 0 0 "asm" is not allowed
+7 0 0 "asm" must be used with a function definition
+7 0 0 "asm" function is nonstandard
+7 0 0 ellipsis with no explicit parameters is nonstandard
+7 0 0 "&..." is nonstandard
+7 0 0 invalid use of "&..."
+7 0 0 alternative token option can be used only when compiling C++
+7 0 0 temporary used for initial value of reference to const volatile (anachronism)
+7 0 0 a reference of type %t1 cannot be initialized with a value of type %t2
+7 0 0 initial value of reference to const volatile must be an lvalue
+7 0 0 SVR4 C compatibility option can be used only when compiling ANSI C
+7 0 0 using out-of-scope declaration of %nd
+7 0 0 strict ANSI mode is incompatible with SVR4 C mode
+7 0 0 call of %nd cannot be inlined
+7 0 0 %n cannot be inlined
+7 0 0 invalid PCH directory: 
+7 0 0 expected __except or __finally
+7 0 0 a __leave statement may only be used within a __try
+0 0 0 detected during instantiation of %nt %p
+0 0 0 detected during implicit generation of %nt %p
+0 0 0 detected during instantiation of %na %p
+0 0 0 detected during processing of template argument list for %na %p
+0 0 0 detected during implicit definition of %nt %p
+7 0 0 %sq not found on pack alignment stack
+7 0 0 empty pack alignment stack
+7 0 0 RTTI option can be used only when compiling C++
+7 0 0 %nf, required for copy that was eliminated, is inaccessible
+7 0 0 %nf, required for copy that was eliminated, is not callable because reference parameter cannot be bound to rvalue
+7 0 0 <typeinfo> must be included before typeid is used
+7 0 0 %s cannot cast away const or other type qualifiers
+7 0 0 the type in a dynamic_cast must be a pointer or reference to a complete class type, or void *
+7 0 0 the operand of a pointer dynamic_cast must be a pointer to a complete class type
+7 0 0 the operand of a reference dynamic_cast must be an lvalue of a complete class type
+7 0 0 the operand of a runtime dynamic_cast must have a polymorphic class type
+7 0 0 bool option can be used only when compiling C++
+7 0 0 invalid storage class for condition declaration
+7 0 0 an array type is not allowed here
+7 0 0 expected an "="
+7 0 0 expected a declarator in condition declaration
+7 0 0 %sq, declared in condition, may not be redeclared in this scope
+7 0 0 default template arguments are not allowed for function templates
+7 0 0 expected a "," or ">"
+7 0 0 expected a template parameter list
+7 0 0 incrementing a bool value is deprecated
+7 0 0 bool type is not allowed
+7 0 0 offset of base class %no1 within class %no2 is too large
+7 0 0 expression must have bool type (or be convertible to bool)
+7 0 0 array new and delete option can be used only when compiling C++
+7 0 0 %n is not a variable name
+7 0 0 __based modifier is not allowed here
+7 0 0 __based does not precede a pointer operator, __based ignored
+7 0 0 variable in __based modifier must have pointer type
+7 0 0 the type in a const_cast must be a pointer, reference, or pointer to member to an object type
+7 0 0 a const_cast can only adjust type qualifiers; it cannot change the underlying type
+7 0 0 mutable is not allowed
+7 0 0 redeclaration of %n is not allowed to alter its access
+7 0 0 nonstandard format string conversion
+7 0 0 use of alternative token "<:" appears to be unintended
+7 0 0 use of alternative token "%%:" appears to be unintended
+7 0 0 namespace definition is not allowed
+7 0 0 name must be a namespace name
+7 0 0 namespace alias definition is not allowed
+7 0 0 namespace-qualified name is required
+7 0 0 a namespace name is not allowed
+7 0 0 invalid combination of DLL attributes
+7 0 0 %n is not a class template
+7 0 0 array with incomplete element type is nonstandard
+7 0 0 allocation operator may not be declared in a namespace
+7 0 0 deallocation operator may not be declared in a namespace
+7 0 0 %np1 conflicts with using-declaration of %np2
+7 0 0 using-declaration of %np1 conflicts with %npd2
+7 0 0 namespaces option can be used only when compiling C++
+7 0 0 using-declaration ignored -- it refers to the current namespace
+7 0 0 a class-qualified name is required
+0 0 0 argument types are: (%s)
+0 0 0 operand types are: %s
+7 0 0 using-declaration of %n ignored
+7 0 0 %n has no actual member %sq
+7 0 0 global-scope qualifier (leading "::") on friend declaration is nonstandard
+7 0 0 incompatible memory attributes specified
+7 0 0 memory attribute ignored
+7 0 0 memory attribute may not be followed by a nested declarator
+7 0 0 memory attribute specified more than once
+7 0 0 calling convention specified more than once
+7 0 0 a type qualifier is not allowed
+7 0 0 %npd1 was used before its template was declared
+7 0 0 static and nonstatic member functions with same parameter types cannot be overloaded
+7 0 0 no prior declaration of %np
+7 0 0 a template-id is not allowed
+7 0 0 a class-qualified name is not allowed
+7 0 0 %n may not be redeclared in the current scope
+7 0 0 qualified name is not allowed in namespace member declaration
+7 0 0 %n is not a type name
+7 0 0 explicit instantiation is not allowed in the current scope
+7 0 0 %n cannot be explicitly instantiated in the current scope
+7 0 0 %n explicitly instantiated more than once
+7 0 0 typename may only be used within a template
+7 0 0 special_subscript_cost option can be used only when compiling C++
+7 0 0 typename option can be used only when compiling C++
+7 0 0 implicit typename option can be used only when compiling C++
+7 0 0 nonstandard character at start of object-like macro definition
+7 0 0 exception specification for virtual %n1 is incompatible with that of overridden %n2
+7 0 0 conversion from pointer to smaller integer
+7 0 0 exception specification for implicitly declared virtual %n1 is incompatible with that of overridden %n2
+7 0 0 %no1, implicitly called from %np2, is ambiguous
+7 0 0 option "explicit" can be used only when compiling C++
+7 0 0 "explicit" is not allowed
+7 0 0 declaration conflicts with %sq (reserved class name)
+7 0 0 only "()" is allowed as initializer for array %n
+7 0 0 "virtual" is not allowed in a function template declaration
+7 0 0 invalid anonymous union -- class member template is not allowed
+7 0 0 template nesting depth does not match the previous declaration of %n
+7 0 0 this declaration cannot have multiple "template <...>" clauses
+7 0 0 option to control the for-init scope can be used only when compiling C++
+7 0 0 %sq, declared in for-loop initialization, may not be redeclared in this scope
+7 0 0 reference is to %nd1 -- under old for-init scoping rules it would have been %nd2
+7 0 0 option to control warnings on for-init differences can be used only when compiling C++
+7 0 0 definition of virtual %n is required here
+7 0 0 empty comment interpreted as token-pasting operator "##"
+7 0 0 a storage class is not allowed in a friend declaration
+7 0 0 template parameter list for %no is not allowed in this declaration
+7 0 0 %n is not a valid member class or function template
+7 0 0 not a valid member class or function template declaration
+7 0 0 a template declaration containing a template parameter list may not be followed by an explicit specialization declaration
+7 0 0 explicit specialization of %n1 must precede the first use of %n2
+7 0 0 explicit specialization is not allowed in the current scope
+7 0 0 partial specialization of %n is not allowed
+7 0 0 %nf is not an entity that can be explicitly specialized
+7 0 0 explicit specialization of %n must precede its first use
+7 0 0 template parameter %s may not be used in an elaborated type specifier
+7 0 0 specializing %n requires "template<>" syntax
+7 0 0 "template<>" syntax is required when declaring a member function template instance as a friend
+7 0 0 nonstandard "asm" declaration is not supported inside a template
+7 0 0 option "old_specializations" can be used only when compiling C++
+7 0 0 specializing %n without "template<>" syntax is nonstandard
+7 0 0 this declaration may not have extern "C" linkage
+7 0 0 %sq is not a class or function template name in the current scope
+7 0 0 specifying a default argument when redeclaring an unreferenced function template is nonstandard
+7 0 0 specifying a default argument when redeclaring an already referenced function template is not allowed
+7 0 0 cannot convert pointer to member of base class %t2 to pointer to member of derived class %t1 -- base class is virtual
+7 0 0 exception specification is incompatible with that of %nd%s\=':'
+7 0 0 omission of exception specification is incompatible with %nd
+7 0 0 unexpected end of default argument expression
+7 0 0 default-initialization of reference is not allowed
+7 0 0 uninitialized %n has a const member
+7 0 0 uninitialized base class %t has a const member
+7 0 0 const %n requires an initializer -- class %t has no explicitly declared default constructor
+7 0 0 const object requires an initializer -- class %t has no explicitly declared default constructor
+7 0 0 option "implicit_extern_c_type_conversion" can be used only when compiling C++
+7 0 0 strict ANSI mode is incompatible with long preserving rules
+7 0 0 type qualifier on return type is meaningless
+7 0 0 in a function definition a type qualifier on a "void" return type is not allowed
+7 0 0 static data member declaration is not allowed in this class
+7 0 0 template instantiation resulted in an invalid function declaration
+7 0 0 "..." is not allowed
+7 0 0 option "extern_inline" can be used only when compiling C++
+7 0 0 extern inline %n was referenced but not defined
+7 0 0 invalid destructor name for type %t
+7 0 0 use of %n in a destructor call is nonstandard
+7 0 0 destructor reference is ambiguous -- both %n1 and %n2 could be used
+7 0 0 virtual inline %n was never defined
+7 0 0 %n was never referenced
+7 0 0 only one member of a union may be specified in a constructor initializer list
+7 0 0 support for "new[]" and "delete[]" is disabled
+7 0 0 "double" used for "long double" in generated C code
+7 0 0 %n has no corresponding operator delete%s (to be called if an exception is thrown during initialization of an allocated object)
+7 0 0 support for placement delete is disabled
+7 0 0 no appropriate operator delete is visible
+7 0 0 pointer or reference to incomplete type is not allowed
+7 0 0 invalid partial specialization -- %n is already fully specialized
+7 0 0 incompatible exception specifications
+7 0 0 returning reference to local variable
+7 0 0 omission of explicit type is nonstandard ("int" assumed)
+7 0 0 more than one partial specialization matches the template argument list of %n
+0 0 0 %no
+7 0 0 a template argument list is not allowed in a declaration of a primary template
+7 0 0 partial specializations may not have default template arguments
+7 0 0 %n1 is not used in template argument list of %n2
+7 0 0 the type of partial specialization template parameter %n depends on another template parameter
+7 0 0 the template argument list of the partial specialization includes a nontype argument whose type depends on a template parameter
+7 0 0 this partial specialization would have been used to instantiate %n
+7 0 0 this partial specialization would have been made the instantiation of %n ambiguous
+7 0 0 expression must have integral or enum type
+7 0 0 expression must have arithmetic or enum type
+7 0 0 expression must have arithmetic, enum, or pointer type
+7 0 0 type of cast must be integral or enum
+7 0 0 type of cast must be arithmetic, enum, or pointer
+7 0 0 expression must be a pointer to a complete object type
+7 0 0 a partial specialization of a member class template must be declared in the class of which it is a member
+7 0 0 a partial specialization nontype argument must be the name of a nontype parameter or a constant
+7 0 0 return type is not identical to return type %t of overridden virtual function %n
+7 0 0 option "guiding_decls" can be used only when compiling C++
+7 0 0 a partial specialization of a class template must be declared in the namespace of which it is a member
+7 0 0 %n is a pure virtual function
+7 0 0 pure virtual %n has no overrider
+7 0 0 __declspec attributes ignored
+7 0 0 invalid character in input line
+7 0 0 function returns incomplete type %t
+7 0 0 effect of this "#pragma pack" directive is local to %n
+7 0 0 %s is not a template
+7 0 0 a friend declaration may not declare a partial specialization
+7 0 0 exception specification ignored
+7 0 0 declaration of "size_t" does not match the expected type %t
+7 0 0 space required between adjacent ">" delimiters of nested template argument lists (">>" is the right shift operator)
+7 0 0 could not set locale %sq to allow processing of multibyte characters
+7 0 0 invalid multibyte character sequence
+7 0 0 template instantiation resulted in unexpected function type of %t1 (the meaning of a name may have changed since the template declaration -- the type of the template is %t2)
+7 0 0 ambiguous guiding declaration -- more than one function template %no matches type %t
+7 0 0 non-integral operation not allowed in nontype template argument
+7 0 0 option "embedded_c++" can be used only when compiling C++
+7 0 0 Embedded C++ does not support templates
+7 0 0 Embedded C++ does not support exception handling
+7 0 0 Embedded C++ does not support namespaces
+7 0 0 Embedded C++ does not support run-time type information
+7 0 0 Embedded C++ does not support the new cast syntax
+7 0 0 Embedded C++ does not support using-declarations
+7 0 0 Embedded C++ does not support "mutable"
+7 0 0 Embedded C++ does not support multiple or virtual inheritance
+7 0 0 invalid Microsoft version number: 
+7 0 0 pointer-to-member representation %sq has already been set for %n
+7 0 0 %t1 cannot be used to designate constructor for %t2
+7 0 0 invalid suffix on integral constant
+7 0 0 operand of __uuidof must have a class or enum type for which __declspec(uuid("...")) has been specified
+7 0 0 invalid GUID string in __declspec(uuid("..."))
+7 0 0 option "vla" can be used only when compiling C
+7 0 0 variable length array with unspecified bound is not allowed
+7 0 0 an explicit template argument list is not allowed on this declaration
+7 0 0 an entity with linkage cannot have a type involving a variable length array
+7 0 0 a variable length array cannot have static storage duration
+7 0 0 %n is not a template
+0 0 0 variable length array dimension (declared %p)
+7 0 0 expected a template argument
+7 0 0 explicit function template argument lists are not supported yet in expression contexts
+7 0 0 nonmember operator requires a parameter with class or enum type
+7 0 0 option "enum_overloading" can be used only when compiling C++
+7 0 0 using-declaration of %n is not allowed
+7 0 0 qualifier of destructor name %t1 does not match type %t2
+7 0 0 type qualifier ignored
+7 0 0 option "nonstd_qualifier_deduction" can be used only when compiling C++
+7 0 0 a function declared "dllimport" may not be defined
+7 0 0 incorrect property specification; correct form is __declspec(property(get=name1,put=name2))
+7 0 0 property has already been specified
+7 0 0 __declspec(property) is not allowed on this declaration
+7 0 0 member is declared with __declspec(property), but no "get" function was specified
+7 0 0 the __declspec(property) "get" function %sq is missing
+7 0 0 member is declared with __declspec(property), but no "put" function was specified
+7 0 0 the __declspec(property) "put" function %sq is missing
+7 0 0 ambiguous class member reference -- %nd1 used in preference to %nd2
+7 0 0 missing or invalid segment name in __declspec(allocate("..."))
+7 0 0 __declspec(allocate) is not allowed on this declaration
+7 0 0 a segment name has already been specified
+7 0 0 cannot convert pointer to member of derived class %t1 to pointer to member of base class %t2 -- base class is virtual
+7 0 0 invalid directory for instantiation files: 
+7 0 0 option "one_instantiation_per_object" can be used only when compiling C++
+7 0 0 invalid output file: %sq
+7 0 0 cannot open output file: %sq
+7 0 0 an instantiation information file name may not be specified when compiling several input files
+7 0 0 option "one_instantiation_per_object" may not be used when compiling several input files
+7 0 0 more than one command line option matches the abbreviation "--%s":
+0 0 0 --%s
+7 0 0 a type qualifier cannot be applied to a function type
+7 0 0 cannot open definition list file: %sq
+7 0 0 late/early tiebreaker option can be used only when compiling C++
+7 0 0 incorrect use of va_start
+7 0 0 incorrect use of va_arg
+7 0 0 incorrect use of va_end
+7 0 0 pending instantiations option can be used only when compiling C++
+7 0 0 invalid directory for #import files: 
+7 0 0 an import directory can be specified only in Microsoft mode
+7 0 0 a member with reference type is not allowed in a union
+7 0 0 "typedef" may not be specified here
+7 0 0 redeclaration of %n alters its access
+7 0 0 a class or namespace qualified name is required
+7 0 0 return type "int" omitted in declaration of function "main"
+7 0 0 pointer-to-member representation %sq is too restrictive for %n
+7 0 0 missing return statement at end of non-void %n
+7 0 0 duplicate using-declaration of %no ignored
+7 0 0 enum bit-fields are always unsigned, but enum %t includes negative enumerator
+7 0 0 option "class_name_injection" can be used only when compiling C++
+7 0 0 option "arg_dep_lookup" can be used only when compiling C++
+7 0 0 option "friend_injection" can be used only when compiling C++
+7 0 0 name following "template" must be a member template
+7 0 0 name following "template" must have a template argument list
+7 0 0 nonstandard local-class friend declaration -- no prior declaration in the enclosing scope
+7 0 0 specifying a default argument on this declaration is nonstandard
+7 0 0 option "nonstd_using_decl" can be used only when compiling C++
+7 0 0 return type of function "main" must be "int"
+7 0 0 a nontype template parameter may not have class type
+7 0 0 a default template argument cannot be specified on the declaration of a member of a class template
+7 0 0 a return statement is not allowed in a handler of a function try block of a constructor
+7 0 0 ordinary and extended designators cannot be combined in an initializer designation
+7 0 0 the second subscript must not be smaller than the first
+7 0 0 option "designators" can be used only when compiling C
+7 0 0 option "extended_designators" can be used only when compiling C
+7 0 0 declared size for bit field is larger than the size of the bit field type; truncated to %s bits
+7 0 0 type used as constructor name does not match type %t
+7 0 0 use of a type with no linkage to declare a variable with linkage
+7 0 0 use of a type with no linkage to declare a function
+7 0 0 return type may not be specified on a constructor
+7 0 0 return type may not be specified on a destructor
+7 0 0 incorrectly formed universal character name
+7 0 0 universal character name specifies an invalid character
+7 0 0 a universal character name cannot designate a character in the basic character set
+7 0 0 this universal character is not allowed in an identifier
+7 0 0 the identifier __VA_ARGS__ can only appear in the replacement lists of variadic macros
+7 0 0 the qualifier on this friend declaration is ignored
+7 0 0 array range designators cannot be applied to dynamic initializers
+7 0 0 property name cannot appear here
+7 0 0 "inline" used as a function qualifier is ignored
+7 0 0 option "compound_literals" can be used only when compiling C
+7 0 0 a variable-length array type is not allowed
+7 0 0 a compound literal is not allowed in an integral constant expression
+7 0 0 a compound literal of type %t is not allowed
+7 0 0 a template friend declaration cannot be declared in a local class
+7 0 0 ambiguous "?" operation: second operand of type %t1 can be converted to third operand type %t2, and vice versa
+7 0 0 call of an object of a class type without appropriate operator() or conversion functions to pointer-to-function type
+0 0 0 surrogate function from conversion %np
+7 0 0 there is more than one way an object of type %t can be called for the argument list:
+7 0 0 typedef name has already been declared (with similar type)
+7 0 0 operator new and operator delete cannot be given internal linkage
+7 0 0 storage class "mutable" is not allowed for anonymous unions
+7 0 0 invalid precompiled header file
+7 0 0 abstract class type %t is not allowed as catch type:
+7 0 0 a qualified function type cannot be used to declare a nonmember function or a static member function
+7 0 0 a qualified function type cannot be used to declare a parameter
+7 0 0 cannot create a pointer or reference to qualified function type
+7 0 0 extra braces are nonstandard
+7 0 0 invalid macro definition: 
+7 0 0 subtraction of pointer types %t1 and %t2 is nonstandard
+7 0 0 an empty template parameter list is not allowed in a template template parameter declaration
+7 0 0 expected "class"
+7 0 0 the "class" keyword must be used when declaring a template template parameter
+7 0 0 %np2 is hidden by %no1 -- virtual function override intended?
+7 0 0 a qualified name is not allowed for a friend declaration that is a function definition
+7 0 0 %n1 is not compatible with %n2
+7 0 0 a storage class may not be specified here
+7 0 0 class member designated by a using-declaration must be visible in a direct base class
+7 0 0 Sun mode is incompatible with Microsoft mode
+7 0 0 Sun mode is incompatible with cfront mode
+7 0 0 strict ANSI mode is incompatible with Sun mode
+7 0 0 Sun mode is only allowed when compiling C++
+7 0 0 a template template parameter cannot have the same name as one of its template parameters
+7 0 0 recursive instantiation of default argument
+7 0 0 a parameter of a template template parameter cannot depend on the type of another template parameter
+7 0 0 %n is not an entity that can be defined
+7 0 0 destructor name must be qualified
+7 0 0 friend class name may not be introduced with "typename"
+7 0 0 a using-declaration may not name a constructor or destructor
+7 0 0 a qualified friend template declaration must refer to a specific previously declared template
+7 0 0 invalid specifier in class template declaration
+7 0 0 argument is incompatible with formal parameter
+7 0 0 option "dep_name" can be used only when compiling C++
+7 0 0 loop in sequence of "operator->" functions starting at class %t1
+7 0 0 %n has no member class %sq
+7 0 0 the global scope has no class named %sq
+7 0 0 recursive instantiation of template default argument
+7 0 0 access declarations and using-declarations cannot appear in unions
+7 0 0 %no is not a class member
+7 0 0 nonstandard member constant declaration is not allowed
+7 0 0 option "ignore_std" can be used only when compiling C++
+7 0 0 option "parse_templates" can be used only when compiling C++
+7 0 0 option "dep_name" cannot be used with "no_parse_templates"
+7 0 0 language modes specified are incompatible
+7 0 0 invalid redeclaration of nested class
+7 0 0 type containing an unknown-size array is not allowed
+7 0 0 a variable with static storage duration cannot be defined within an inline function
+7 0 0 an entity with internal linkage cannot be referenced within an inline function with external linkage
+7 0 0 argument type %t does not match this type-generic function macro
+7 0 0 variable length array %nod
+7 0 0 friend declaration cannot add default arguments to previous declaration
+7 0 0 %n cannot be declared in this scope
+7 0 0 the reserved identifier %sq may only be used inside a function
+7 0 0 this universal character cannot begin an identifier
+7 0 0 expected a string literal
+7 0 0 unrecognized STDC pragma
+7 0 0 expected "ON", "OFF", or "DEFAULT"
+7 0 0 a STDC pragma may only appear between declarations in the global scope or before any statements or declarations in a block scope
+7 0 0 incorrect use of va_copy
+7 0 0 %s can only be used with floating-point types
+7 0 0 complex type is not allowed
+7 0 0 invalid designator kind
+7 0 0 floating-point value cannot be represented exactly
+7 0 0 complex floating-point operation result is out of range
+7 0 0 conversion between real and imaginary yields zero
+7 0 0 an initializer cannot be specified for a flexible array member
+7 0 0 imaginary *= imaginary sets the left-hand operand to zero
+7 0 0 standard requires that %n be given a type by a subsequent declaration ("int" assumed)
+7 0 0 a definition is required for inline %n
+7 0 0 conversion from integer to smaller pointer
+7 0 0 a floating-point type must be included in the type specifier for a _Complex or _Imaginary type
+7 0 0 #pragma error: %s
+7 0 0 #pragma info: %s
+7 0 0 #pragma warning: %s
+7 2 0 expression must be a vector type or have a constant value
+7 2 0 use of obsolete feature: %s
+7 2 0 too few initializer values
+7 2 0 vector argument requires a prototype
+7 2 0 vector type specifier is not first
+7 2 0 operand of vec_step must be a vector type
+7 0 0 types cannot be declared in anonymous unions
+7 0 0 returning pointer to local variable
+7 0 0 returning pointer to local temporary
+7 0 0 option "export" can be used only when compiling C++
+7 0 0 option "export" cannot be used with "no_dep_name"
+7 0 0 option "export" cannot be used with "implicit_include"
+7 0 0 declaration of %n is incompatible with a declaration in another translation unit
+7 0 0 the other declaration is %p
+0 0 0 detected during compilation of secondary translation unit %sq
+0 0 0 compilation of secondary translation unit %sq
+7 0 0 a field declaration cannot have a type involving a variable length array
+7 0 0 declaration of %n had a different meaning during compilation of %sq
+7 0 0 expected "template"
+7 0 0 "export" cannot be used on an explicit instantiation
+7 0 0 "export" cannot be used on this declaration
+7 0 0 a member of an unnamed namespace cannot be declared "export"
+7 0 0 a template cannot be declared "export" after it has been defined
+7 0 0 a declaration cannot have a label
+7 0 0 support for exported templates is disabled
+7 0 0 cannot open exported template file: %sq
+7 0 0 %n already defined during compilation of %sq
+7 0 0 %n already defined in another translation unit
+7 0 0 a non-static local variable may not be used in a __based specification
+7 0 0 the option to list makefile dependencies may not be specified when compiling more than one translation unit
+7 0 0 the option to list included files may not be specified when compiling more than one translation unit
+7 0 0 the option to generate preprocessed output may not be specified when compiling more than one translation unit
+7 0 0 a field with the same name as its class cannot be declared in a class with a user-declared constructor
+7 0 0 "implicit_include" cannot be used when compiling more than one translation unit
+7 0 0 exported template file %sq is corrupted
+7 0 0 %n cannot be instantiated -- it has been explicitly specialized in the translation unit containing the exported definition
+0 0 0 object type is: %s
+7 0 0 the object has cv-qualifiers that are not compatible with the member %n
+7 0 0 no instance of %n matches the argument list and object (the object has cv-qualifiers that prevent a match)
+7 0 0 an attribute specifies a mode incompatible with %t
+7 0 0 there is no type with the width specified
+7 0 0 invalid alignment value specified by attribute
+7 0 0 invalid attribute for %t
+7 0 0 invalid attribute for %n
+7 0 0 invalid attribute for parameter
+7 0 0 attribute %sq does not take arguments
+7 0 0 attribute %sq requires arguments
+7 0 0 expected an attribute name
+7 0 0 there is no attribute %sq
+7 0 0 attributes may not appear here
+7 0 0 invalid argument to attribute %sq
+7 0 0 the "packed" attribute is ignored in a typedef
+7 0 0 in "goto *expr", expr must have type "void *"
+7 0 0 "goto *expr" is nonstandard
+7 0 0 taking the address of a label is nonstandard
+7 0 0 file name specified more than once: 
+7 0 0 #warning directive: %s
+7 0 0 attribute %sq is only allowed in a function definition
+7 0 0 the "transparent_union" attribute only applies to unions, and %t is not a union
+7 0 0 the "transparent_union" attribute is ignored on incomplete types
+7 0 0 %t cannot be transparent because %n does not have the same size as the union
+7 0 0 %t cannot be transparent because it has a field of type %t which is not the same size as the union
+7 0 0 only parameters can be transparent
+7 0 0 the %sq attribute does not apply to local variables
+7 0 0 attributes are not permitted in a function definition
+7 0 0 declarations of local labels should only appear at the start of statement expressions
+7 0 0 the second constant in a case range must be larger than the first
+7 0 0 an asm name is not permitted in a function definition
+7 0 0 an asm name is ignored in a typedef
+7 0 0 unknown register name "%s"
+7 0 0 modifier letter '%s' ignored in asm operand
+7 0 0 unknown asm constraint modifier '%s'
+7 0 0 unknown asm constraint letter '%s'
+7 0 0 asm operand has no constraint letter
+7 0 0 an asm output operand must have one of the '=' or '+' modifiers
+7 0 0 an asm input operand may not have the '=' or '+' modifiers
+7 0 0 too many operands to asm statement (maximum is 10)
+7 0 0 too many colons in asm statement
+7 0 0 register "%s" used more than once
+7 0 0 register "%s" is both used and clobbered
+7 0 0 register "%s" clobbered more than once
+7 0 0 register "%s" has a fixed purpose and may not be used in an asm statement
+7 0 0 register "%s" has a fixed purpose and may not be clobbered in an asm statement
+7 0 0 an empty clobbers list must be omitted entirely
+7 0 0 expected an asm operand
+7 0 0 expected a register to clobber
+7 0 0 "format" attribute applied to %n which does not have variable arguments
+7 0 0 first substitution argument is not the first variable argument
+7 0 0 format argument index is greater than number of parameters
+7 0 0 format argument does not have string type
+7 0 0 the "template" keyword used for syntactic disambiguation may only be used within a template
+0 0 0 a debug option must be specified on the command-line for the db_opt pragma to be used
+7 0 0 more than one preinclude option specified
+7 0 0 attribute does not apply to non-function type %t
+7 0 0 arithmetic on pointer to void or function type
+7 0 0 storage class must be auto or register
+7 0 0 %t1 would have been promoted to %t2 when passed through the ellipsis parameter; use the latter type instead
+7 0 0 %sq is not a base class member
+7 0 0 __super cannot appear after "::"
+7 0 0 __super may only be used in a class scope
+7 0 0 __super must followed by "::"
+7 0 0 [ %s instantiation contexts not shown ]
+7 0 0 mangled name is too long
+7 0 0 declaration aliased to unknown entity %sq
+7 0 0 declaration does not match its alias %n
+7 0 0 entity declared as alias cannot have definition
+7 0 0 variable-length array field type will be treated as zero-length array field type
+7 0 0 nonstandard cast on lvalue ignored
+7 0 0 unrecognized flag name 
+7 0 0 void return type cannot be qualified
+7 0 0 the auto specifier is ignored here (invalid in standard C/C++)
+7 0 0 a reduction in alignment without the "packed" attribute is ignored
+7 0 0 a member template corresponding to %no is declared as a template of a different kind in another translation unit
+7 0 0 excess initializers are ignored
+7 0 0 va_start should only appear in a function with an ellipsis parameter
+7 0 0 the "short_enums" option is only valid in GNU C mode
+7 0 0 invalid export information file %sq1 at line number %s2
+7 0 0 statement expressions are only allowed in block scope
+0 0 0 from translation unit 
+7 0 0 an asm name is ignored on a non-register automatic variable
+7 0 0 inline function also declared as an alias; definition ignored
+7 0 0 cannot initialize __ev64_opaque__ from a brace enclosed list (first cast to a specific ev64 type)
+2 0 0 priority out of range
+2 0 0 improper object type or scope, attribute ignored

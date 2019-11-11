@@ -1,0 +1,27 @@
+SECTIONS {
+	GROUP BIND((0x10000+HEADERSZ))  : {
+		.text (TEXT) : {
+			*(.text) 
+			*(.rdata)
+			*(.rodata)
+			*(.frame_info)
+			*(.j_class_table) 
+			*(.init)
+			*(.fini) 
+		}
+		.sdata2 (TEXT) : {}
+	}
+	GROUP BIND(ADDR(.sdata2)+SIZEOF(.sdata2) + 0x2000) : {
+		.data (DATA) : { *(.data) *(.j_pdata) *(.j_spdata) }
+		.ctors ALIGN(4) : { ctordtor.o(.ctors) *(.ctors) }
+		.dtors ALIGN(4) : { ctordtor.o(.dtors) *(.dtors) }
+		.sdata (DATA) : {}
+		.sbss (BSS) : { *(.sbss) }
+		.bss (BSS) : { *(.bss) }
+	}
+}
+
+__SDA_BASE_     = ADDR(.sdata);
+_SDA_BASE_      = ADDR(.sdata);
+__SDA2_BASE_    = ADDR(.sdata2);
+_SDA2_BASE_     = ADDR(.sdata2);

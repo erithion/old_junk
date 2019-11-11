@@ -1,0 +1,198 @@
+//$$m1			- ABI mnemonics
+//$$pRCE0		- MCORE instructions
+//$$oRCE0		- Optimized for MCORE
+//$$ko 0		- Reorder info
+	.file		"bubble.c"
+	.text
+	.section	.text2,,c
+
+//$$bf
+	.align		1
+sort:
+	subi		r0,24
+	stm		r11-r15,(r0)
+//$$ee
+	mov		r14,r2
+	mov		r13,r3
+	lrw		r12,1
+.L4:
+	cmpnei		r12,0
+	jbf		.L3
+	lrw		r12,0
+	lrw		r11,0
+.L8:
+	mov		r7,r13
+	subi		r7,1
+	cmpgt		r7,r11
+	jbf		.L4
+	lrw		r7,test_count
+	lrw		r6,test_count
+	ld.w		r6,(r6,0)
+	addi		r6,1
+	st.w		r6,(r7,0)
+	mov		r7,r14
+	ixw		r7,r11
+	ld.w		r7,(r7,0)
+	mov		r6,r14
+	ixw		r6,r11
+	ld.w		r6,(r6,4)
+	cmpgt		r7,r6
+	jbf		.L7
+	mov		r2,r14
+	ixw		r2,r11
+//$$tl 0x4
+//$$rs 0
+	jbsr		swap
+	lrw		r12,1
+.L7:
+	addi		r11,1
+	jbr		.L8
+.L3:
+//$$be
+	ldm		r11-r15,(r0)
+	addi		r0,24
+//$$tl 0x0
+	jmp		r15
+//$$ef
+	.type		sort,@function
+	.size		sort,.-sort
+// Number of nodes = 49
+
+// Allocations for sort
+//	r14		array
+//	r13		count
+//	r12		change
+//	r11		i
+	.text
+
+//$$bf
+	.align		1
+	.export		main
+main:
+	subi		r0,16
+	stm		r12-r15,(r0)
+//$$ee
+	lrw		r12,input_count
+        ld.h    r2,(r12,0)         
+        xtrb3   r1,r2                    
+        lsli    r1,8                     
+        lsri    r2,8                     
+        or      r2,r1                    
+	mov		r14,r2
+	lrw		r2,.L17
+//$$tl 0x4
+//$$rs 4
+	jbsr		printf
+	lrw		r13,0
+.L12:
+	cmplt		r13,r14
+	jbf		.L10
+	lrw		r7,array
+	ixw		r7,r13
+	ld.w		r3,(r7,0)
+	lrw		r2,.L18
+//$$tl 0xc
+//$$rs 4
+	jbsr		printf
+	addi		r13,1
+	jbr		.L12
+.L10:
+	lrw		r2,array
+	mov		r3,r14
+//$$tl 0xc
+//$$rs 0
+	jbsr		sort
+	lrw		r2,.L19
+	lrw		r3,test_count
+	ld.w		r3,(r3,0)
+//$$tl 0xc
+//$$rs 4
+	jbsr		printf
+	lrw		r13,0
+.L15:
+	cmplt		r13,r14
+	jbf		.L13
+	lrw		r7,array
+	ixw		r7,r13
+	ld.w		r3,(r7,0)
+	lrw		r2,.L18
+//$$tl 0xc
+//$$rs 4
+	jbsr		printf
+	addi		r13,1
+	jbr		.L15
+.L13:
+	lrw		r2,.L20
+//$$tl 0x4
+//$$rs 4
+	jbsr		printf
+	lrw		r2,0
+	ldm		r12-r15,(r0)
+	addi		r0,16
+//$$tl 0xff04
+	jbr		exit
+//$$be
+	ldm		r12-r15,(r0)
+	addi		r0,16
+//$$tl 0x0
+	jmp		r15
+//$$ef
+	.type		main,@function
+	.size		main,.-main
+// Number of nodes = 76
+
+// Allocations for main
+//	r14		count
+//	r13		i
+//	r12		$$1
+
+// Allocations for module
+	.section	.abs.000f0000,,b
+	.type		input_count,@object
+	.size		input_count,2
+	.align		1
+	.export		input_count
+input_count:
+	.fill		2
+	.data
+	.type		array,@object
+	.size		array,40
+	.align		2
+	.export		array
+array:
+	.long		10
+	.long		9
+	.long		8
+	.long		7
+	.long		6
+	.long		5
+	.long		4
+	.long		3
+	.long		2
+	.long		1
+	.bss
+	.align		2
+	.type		test_count,@object
+	.size		test_count,4
+	.align		2
+test_count:
+	.fill		4
+	.section	.rodata,,r
+	.align		2
+.L17:
+	.byte		10,73,110,105,116,105,97,108,32,97,114,114,97,121,58,32
+	.byte		0
+	.align		2
+.L18:
+	.byte		37,100,32
+	.byte		0
+	.align		2
+.L19:
+	.byte		10,10,78,117,109,98,101,114,32,111,102,32,116,101,115,116
+	.byte		115,58,32,37,100,10,10,83,111,114,116,101,100,32,97,114
+	.byte		114,97,121,58,32,32
+	.byte		0
+	.align		2
+.L20:
+	.byte		10,10
+	.byte		0

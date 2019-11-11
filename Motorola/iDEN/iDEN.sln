@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iDENLibrary", "Src\iDENLibrary\iDENLibrary.vcproj", "{872FC5F8-88CF-4D17-9E17-497F086B6628}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests", "Src\Tests\Tests.vcproj", "{B876EC58-BE0B-4517-A8A6-DEA6C2E8F95B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "p2k1", "Src\p2k1\p2k1.vcproj", "{6CE2F159-ADA1-4E45-A064-6C77A2D6114D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{872FC5F8-88CF-4D17-9E17-497F086B6628}.Debug|Win32.ActiveCfg = Debug|Win32
+		{872FC5F8-88CF-4D17-9E17-497F086B6628}.Debug|Win32.Build.0 = Debug|Win32
+		{872FC5F8-88CF-4D17-9E17-497F086B6628}.Release|Win32.ActiveCfg = Release|Win32
+		{872FC5F8-88CF-4D17-9E17-497F086B6628}.Release|Win32.Build.0 = Release|Win32
+		{B876EC58-BE0B-4517-A8A6-DEA6C2E8F95B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B876EC58-BE0B-4517-A8A6-DEA6C2E8F95B}.Debug|Win32.Build.0 = Debug|Win32
+		{B876EC58-BE0B-4517-A8A6-DEA6C2E8F95B}.Release|Win32.ActiveCfg = Release|Win32
+		{B876EC58-BE0B-4517-A8A6-DEA6C2E8F95B}.Release|Win32.Build.0 = Release|Win32
+		{6CE2F159-ADA1-4E45-A064-6C77A2D6114D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6CE2F159-ADA1-4E45-A064-6C77A2D6114D}.Debug|Win32.Build.0 = Debug|Win32
+		{6CE2F159-ADA1-4E45-A064-6C77A2D6114D}.Release|Win32.ActiveCfg = Release|Win32
+		{6CE2F159-ADA1-4E45-A064-6C77A2D6114D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

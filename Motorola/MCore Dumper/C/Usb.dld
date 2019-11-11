@@ -1,0 +1,17 @@
+MEMORY
+{
+/*    rom1:   org = 0x100E00, len = 0x200
+    rom2:   org = 0x101000, len = 0x100000*/
+    rom:   org = 0x100E00, len = 0x100000
+}
+
+SECTIONS
+{
+    /* Collect all code sections from all input files to make a single output
+     * .text section and locate it in "rom1" memory (except for .text2 code
+     * sections).                                                            */
+
+/*    .startup : { *(.startup) } > rom1
+    .text : { *(.vector) *(.text) *(.rodata) *(.data) *(.init) *(.fini) *(.bss) } > rom2*/
+    .text : { *(.vector) *(.text) *(.rodata) *(.data) *(.init) *(.fini) *(.bss) } > rom
+}
